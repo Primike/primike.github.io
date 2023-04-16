@@ -4266,6 +4266,18 @@
                   "1 - (1/2)x^2 + (1/24)x^4"
                 ]
               ]
+            },
+            {
+              "question": [
+                "Find the first four non-zero terms of the Taylor series for the function f(x) = sin(x) centered at x = 0."
+              ],
+              "answer": "x - (1/6)x^3 + (1/120)x^5 - (1/5040)x^7",
+              "hint": "Use the Taylor series formula and the derivatives of the sine function.",
+              "work": [
+                ["Find the derivatives of sin(x) at x = 0.", "f(0) = 0, f'(0) = 1, f''(0) = 0, f'''(0) = -1, f''''(0) = 0, f'''''(0) = 1, f''''''(0) = 0, f'''''''(0) = -1"],
+                ["Use the Taylor series formula.", "f(x) = sum(f^n(0) * x^n / n!, n=0 to infinity)"],
+                ["Write the first four non-zero terms.", "x - (1/6)x^3 + (1/120)x^5 - (1/5040)x^7"]
+              ]
             }
           ]
         }
