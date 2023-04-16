@@ -1,0 +1,4275 @@
+{
+    "Calculus 1": {
+      "topics": [
+        {
+          "name": "1.Domain And Range",
+          "problems": [
+            {
+              "question": [
+                "Find the domain of the function.",
+                "f(x) = sqrt(x^2 - 4)"
+              ],
+              "answer": "(-inf, -2] U [2, +inf)",
+              "hint": [
+                "Consider the values of x for which the square root function is defined.",
+                "sqrt(x^2 - 4)"
+              ],
+              "work": [
+                [
+                  "First, identify the function type and its restrictions.",
+                  "f(x) = sqrt(x^2 - 4)"
+                ],
+                [
+                  "The square root function is defined for non-negative values.",
+                  "x^2 - 4 >= 0"
+                ],
+                [
+                  "Factor the inequality.",
+                  "(x - 2)(x + 2) >= 0"
+                ],
+                [
+                  "The domain of the function is all x values for which the function is defined. Domain: ",
+                  "(-inf, -2] U [2, +inf)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the domain of the function.",
+                "g(x) = ln(x^2 - 1)"
+              ],
+              "answer": "(-inf, -1) U (1, +inf)",
+              "hint": [
+                "Recall that the natural logarithm function is defined for positive values.",
+                "ln(x^2 - 1)"
+              ],
+              "work": [
+                [
+                  "Identify the function type and any restrictions.",
+                  "g(x) = ln(x^2 - 1)"
+                ],
+                [
+                  "The natural logarithm function is defined for positive values.",
+                  "x^2 - 1 > 0"
+                ],
+                [
+                  "Factor the inequality.",
+                  "(x - 1)(x + 1) > 0"
+                ],
+                [
+                  "The domain of the function is all x values for which the function is defined. Domain: ",
+                  "(-inf, -1) U (1, +inf)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the domain of the function.",
+                "h(x) = 1 / (x^2 - 1)"
+              ],
+              "answer": "(-inf, -1) U (-1, 1) U (1, +inf)",
+              "hint": [
+                "Determine the values of x for which the denominator of the fraction is not zero.",
+                "1 / (x^2 - 1)"
+              ],
+              "work": [
+                [
+                  "Identify the function type and any restrictions.",
+                  "h(x) = 1 / (x^2 - 1)"
+                ],
+                [
+                  "The function is undefined when the denominator is zero.",
+                  "x^2 - 1 ≠ 0"
+                ],
+                [
+                  "Factor the denominator.",
+                  "(x - 1)(x + 1) ≠ 0"
+                ],
+                [
+                  "Solve the inequality for x.",
+                  "x ≠ -1, x ≠ 1"
+                ],
+                [
+                  "The domain of the function is all x values for which the function is defined. Domain: ",
+                  "(-inf, -1) U (-1, 1) U (1, +inf)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the domain of the function.",
+                "f(x) = sqrt(3x - 6)"
+              ],
+              "answer": "[2, +inf)",
+              "hint": [
+                "Consider the values of x for which the square root function is defined.",
+                "sqrt(3x - 6)"
+              ],
+              "work": [
+                [
+                  "First, identify the function type and its restrictions.",
+                  "f(x) = sqrt(3x - 6)"
+                ],
+                [
+                  "The square root function is defined for non-negative values.",
+                  "3x - 6 >= 0"
+                ],
+                [
+                  "Solve the inequality for x.",
+                  "x >= 2"
+                ],
+                [
+                  "The domain of the function is all x values for which the function is defined. Domain: ",
+                  "[2, +inf)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the domain of the function.",
+                "g(x) = ln(x^2 + 1)"
+              ],
+              "answer": "(-inf, +inf)",
+              "hint": [
+                "Recall that the natural logarithm function is defined for positive values.",
+                "ln(x^2 + 1)"
+              ],
+              "work": [
+                [
+                  "Identify the function type and any restrictions.",
+                  "g(x) = ln(x^2 + 1)"
+                ],
+                [
+                  "The natural logarithm function is defined for positive values.",
+                  "x^2 + 1 > 0"
+                ],
+                [
+                  "Since x^2 is always non-negative, x^2 + 1 is always positive."
+                ],
+                [
+                  "The domain of the function is all x values for which the function is defined. Domain: ",
+                  "(-inf, +inf)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the domain of the function.",
+                "h(x) = 1 / (x^2 + 4x + 4)"
+              ],
+              "answer": "(-inf, -2) U (-2, +inf)",
+              "hint": [
+                "Determine the values of x for which the denominator of the fraction is not zero.",
+                "1 / (x^2 + 4x + 4)"
+              ],
+              "work": [
+                [
+                  "Identify the function type and any restrictions.",
+                  "h(x) = 1 / (x^2 + 4x + 4)"
+                ],
+                [
+                  "The function is undefined when the denominator is zero.",
+                  "x^2 + 4x + 4 ≠ 0"
+                ],
+                [
+                  "Factor the denominator.",
+                  "(x + 2)(x + 2) ≠ 0"
+                ],
+                [
+                  "Solve the inequality for x.",
+                  "x ≠ -2"
+                ],
+                [
+                  "The domain of the function is all x values for which the function is defined. Domain: ",
+                  "(-inf, -2) U (-2, +inf)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the domain of the function.",
+                "k(x) = sqrt(1 - x^2)"
+              ],
+              "answer": "[-1, 1]",
+              "hint": [
+                "Determine the values of x for which the square root function is defined.",
+                "sqrt(1 - x^2)"
+              ],
+              "work": [
+                [
+                  "First, identify the function type and its restrictions.",
+                  "k(x) = sqrt(1 - x^2)"
+                ],
+                [
+                  "The square root function is defined for non-negative values.",
+                  "1 - x^2 >= 0"
+                ],
+                [
+                  "Rearrange the inequality.",
+                  "x^2 <= 1"
+                ],
+                [
+                  "Take the square root of both sides.",
+                  "-1 <= x <= 1"
+                ],
+                [
+                  "The domain of the function is all x values for which the function is defined. Domain: ",
+                  "[-1, 1]"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the range of the function.",
+                "f(x) = x^2 - 4"
+              ],
+              "answer": "[-4, +inf)",
+              "hint": [
+                "Consider the shape of the parabola and its minimum value.",
+                "x^2 - 4"
+              ],
+              "work": [
+                [
+                  "First, identify the function type and its properties.",
+                  "f(x) = x^2 - 4"
+                ],
+                [
+                  "The given function is a quadratic function with a positive leading coefficient. It opens upward."
+                ],
+                [
+                  "The minimum value of the function occurs at the vertex."
+                ],
+                [
+                  "The vertex of the parabola is at (0, -4)."
+                ],
+                [
+                  "The range of the function is all y values for which the function is defined. Range: ",
+                  "[-4, +inf)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the range of the function.",
+                "g(x) = -x^2 + 3"
+              ],
+              "answer": "(-inf, 3]",
+              "hint": [
+                "Consider the shape of the parabola and its maximum value.",
+                "-x^2 + 3"
+              ],
+              "work": [
+                [
+                  "Identify the function type and its properties.",
+                  "g(x) = -x^2 + 3"
+                ],
+                [
+                  "The given function is a quadratic function with a negative leading coefficient. It opens downward."
+                ],
+                [
+                  "The maximum value of the function occurs at the vertex."
+                ],
+                [
+                  "The vertex of the parabola is at (0, 3)."
+                ],
+                [
+                  "The range of the function is all y values for which the function is defined. Range: ",
+                  "(-inf, 3]"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the range of the function.",
+                "h(x) = 2x + 5"
+              ],
+              "answer": "(-inf, +inf)",
+              "hint": [
+                "Recall the properties of a linear function.",
+                "2x + 5"
+              ],
+              "work": [
+                [
+                  "Identify the function type and its properties.",
+                  "h(x) = 2x + 5"
+                ],
+                [
+                  "The given function is a linear function."
+                ],
+                [
+                  "A linear function has no minimum or maximum values, and its range is all real numbers."
+                ],
+                [
+                  "The range of the function is all y values for which the function is defined. Range: ",
+                  "(-inf, +inf)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the range of the function.",
+                "k(x) = -3x^3"
+              ],
+              "answer": "(-inf, +inf)",
+              "hint": [
+                "Consider the properties of a cubic function.",
+                "-3x^3"
+              ],
+              "work": [
+                [
+                  "First, identify the function type and its properties.",
+                  "k(x) = -3x^3"
+                ],
+                [
+                  "The given function is a cubic function with a negative leading coefficient."
+                ],
+                [
+                  "A cubic function has no minimum or maximum values, and its range is all real numbers."
+                ],
+                [
+                  "The range of the function is all y values for which the function is defined. Range: ",
+                  "(-inf, +inf)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the range of the function.",
+                "f(x) = sqrt(x) + 3"
+              ],
+              "answer": "[3, +inf)",
+              "hint": [
+                "Consider the range of the square root function and the transformation.",
+                "sqrt(x) + 3"
+              ],
+              "work": [
+                [
+                  "First, identify the function type and its properties.",
+                  "f(x) = sqrt(x) + 3"
+                ],
+                [
+                  "The given function is a square root function with a vertical shift."
+                ],
+                [
+                  "The square root function has a range of [0, +inf)."
+                ],
+                [
+                  "The function is shifted up by 3 units, changing the range to [3, +inf)."
+                ],
+                [
+                  "The range of the function is all y values for which the function is defined. Range: ",
+                  "[3, +inf)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the range of the function.",
+                "g(x) = 4 - x^2"
+              ],
+              "answer": "(-inf, 4]",
+              "hint": [
+                "Consider the shape of the parabola and its maximum value.",
+                "4 - x^2"
+              ],
+              "work": [
+                [
+                  "Identify the function type and its properties.",
+                  "g(x) = 4 - x^2"
+                ],
+                [
+                  "The given function is a quadratic function with a negative leading coefficient. It opens downward."
+                ],
+                [
+                  "The maximum value of the function occurs at the vertex."
+                ],
+                [
+                  "The vertex of the parabola is at (0, 4)."
+                ],
+                [
+                  "The range of the function is all y values for which the function is defined. Range: ",
+                  "(-inf, 4]"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the range of the function.",
+                "h(x) = 1 / (x + 2)"
+              ],
+              "answer": "(-inf, 0) U (0, +inf)",
+              "hint": [
+                "Consider the properties of a rational function.",
+                "1 / (x + 2)"
+              ],
+              "work": [
+                [
+                  "Identify the function type and its properties.",
+                  "h(x) = 1 / (x + 2)"
+                ],
+                [
+                  "The given function is a rational function."
+                ],
+                [
+                  "A rational function will never have a y-value equal to its horizontal asymptote."
+                ],
+                [
+                  "The horizontal asymptote for this function is y = 0."
+                ],
+                [
+                  "The range of the function is all y values for which the function is defined, excluding y = 0. Range: ",
+                  "(-inf, 0) U (0, +inf)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the range of the function.",
+                "k(x) = 2^x"
+              ],
+              "answer": "(0, +inf)",
+              "hint": [
+                "Consider the properties of an exponential function.",
+                "2^x"
+              ],
+              "work": [
+                [
+                  "First, identify the function type and its properties.",
+                  "k(x) = 2^x"
+                ],
+                [
+                  "The given function is an exponential function with a positive base."
+                ],
+                [
+                  "An exponential function with a positive base has a range of (0, +inf)."
+                ],
+                [
+                  "The range of the function is all y values for which the function is defined. Range: ",
+                  "(0, +inf)"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "1.Trigonometric functions",
+          "problems": [
+            {
+              "question": [
+                "Find the exact value of the expression.",
+                "sin(π/6) + cos(π/3)"
+              ],
+              "answer": "1",
+              "hint": [
+                "Recall the fundamental trigonometric values.",
+                "sin(π/6) + cos(π/3)"
+              ],
+              "work": [
+                [
+                  "Use the fundamental trigonometric values.",
+                  "sin(π/6) = 1/2"
+                ],
+                [
+                  "Use the fundamental trigonometric values.",
+                  "cos(π/3) = 1/2"
+                ],
+                [
+                  "Add the values.",
+                  "1/2 + 1/2"
+                ],
+                [
+                  "Simplify the expression.",
+                  "1"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the exact value of the expression.",
+                "tan(5π/4)"
+              ],
+              "answer": "1",
+              "hint": [
+                "Recall the fundamental trigonometric values.",
+                "tan(5π/4)"
+              ],
+              "work": [
+                [
+                  "Use the fundamental trigonometric values.",
+                  "tan(5π/4) = 1"
+                ],
+                [
+                  "The exact value of the expression is: ",
+                  "1"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Solve the equation for x in the interval [0, 2π).",
+                "sin(x) = 1/2"
+              ],
+              "answer": "π/6, 5π/6",
+              "hint": [
+                "Determine the values of x for which the sine function is equal to 1/2.",
+                "sin(x) = 1/2"
+              ],
+              "work": [
+                [
+                  "Identify the intervals where the sine function is equal to 1/2.",
+                  "sin(π/6) = 1/2"
+                ],
+                [
+                  "Identify the intervals where the sine function is equal to 1/2.",
+                  "sin(5π/6) = 1/2"
+                ],
+                [
+                  "The solutions for x in the interval [0, 2π) are: ",
+                  "π/6, 5π/6"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the exact value of the expression.",
+                "sec(π/4)"
+              ],
+              "answer": "sqrt(2)",
+              "hint": [
+                "Recall the relationship between secant and cosine.",
+                "sec(π/4)"
+              ],
+              "work": [
+                [
+                  "Recall the relationship between secant and cosine.",
+                  "sec(θ) = 1/cos(θ)"
+                ],
+                [
+                  "Use the fundamental trigonometric values.",
+                  "cos(π/4) = 1/sqrt(2)"
+                ],
+                [
+                  "Find the reciprocal of the cosine value.",
+                  "1/(1/sqrt(2))"
+                ],
+                [
+                  "Simplify the expression.",
+                  "sqrt(2)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the exact value of the expression.",
+                "csc(π/3)"
+              ],
+              "answer": "2",
+              "hint": [
+                "Recall the relationship between cosecant and sine.",
+                "csc(π/3)"
+              ],
+              "work": [
+                [
+                  "Recall the relationship between cosecant and sine.",
+                  "csc(θ) = 1/sin(θ)"
+                ],
+                [
+                  "Use the fundamental trigonometric values.",
+                  "sin(π/3) = sqrt(3)/2"
+                ],
+                [
+                  "Find the reciprocal of the sine value.",
+                  "1/(sqrt(3)/2)"
+                ],
+                [
+                  "Simplify the expression.",
+                  "2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the exact value of the expression.",
+                "cos(11π/6)"
+              ],
+              "answer": "sqrt(3)/2",
+              "hint": [
+                "Recall the fundamental trigonometric values.",
+                "cos(11π/6)"
+              ],
+              "work": [
+                [
+                  "Use the fundamental trigonometric values.",
+                  "cos(11π/6) = sqrt(3)/2"
+                ],
+                [
+                  "The exact value of the expression is: ",
+                  "sqrt(3)/2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Solve the equation for x in the interval [0, 2π).",
+                "cos(x) = -1/2"
+              ],
+              "answer": "2π/3, 4π/3",
+              "hint": [
+                "Determine the values of x for which the cosine function is equal to -1/2.",
+                "cos(x) = -1/2"
+              ],
+              "work": [
+                [
+                  "Identify the intervals where the cosine function is equal to -1/2.",
+                  "cos(2π/3) = -1/2"
+                ],
+                [
+                  "Identify the intervals where the cosine function is equal to -1/2.",
+                  "cos(4π/3) = -1/2"
+                ],
+                [
+                  "The solutions for x in the interval [0, 2π) are: ",
+                  "2π/3, 4π/3"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the exact value of the expression.",
+                "cot(3π/4)"
+              ],
+              "answer": "1",
+              "hint": [
+                "Recall the relationship between cotangent and tangent.",
+                "cot(3π/4)"
+              ],
+              "work": [
+                [
+                  "Recall the relationship between cotangent and tangent.",
+                  "cot(θ) = 1/tan(θ)"
+                ],
+                [
+                  "Use the fundamental trigonometric values.",
+                  "tan(3π/4) = 1"
+                ],
+                [
+                  "Find the reciprocal of the tangent value.",
+                  "1/1"
+                ],
+                [
+                  "Simplify the expression.",
+                  "1"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the exact value of the expression.",
+                "sin(7π/6)"
+              ],
+              "answer": "-1/2",
+              "hint": [
+                "Recall the fundamental trigonometric values.",
+                "sin(7π/6)"
+              ],
+              "work": [
+                [
+                  "Use the fundamental trigonometric values.",
+                  "sin(7π/6) = -1/2"
+                ],
+                [
+                  "The exact value of the expression is: ",
+                  "-1/2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the exact value of the expression.",
+                "cos(5π/3)"
+              ],
+              "answer": "1/2",
+              "hint": [
+                "Recall the fundamental trigonometric values.",
+                "cos(5π/3)"
+              ],
+              "work": [
+                [
+                  "Use the fundamental trigonometric values.",
+                  "cos(5π/3) = 1/2"
+                ],
+                [
+                  "The exact value of the expression is: ",
+                  "1/2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Solve the equation for x in the interval [0, 2π).",
+                "tan(x) = sqrt(3)"
+              ],
+              "answer": "π/3, 4π/3",
+              "hint": [
+                "Determine the values of x for which the tangent function is equal to sqrt(3).",
+                "tan(x) = sqrt(3)"
+              ],
+              "work": [
+                [
+                  "Identify the intervals where the tangent function is equal to sqrt(3).",
+                  "tan(π/3) = sqrt(3)"
+                ],
+                [
+                  "Identify the intervals where the tangent function is equal to sqrt(3).",
+                  "tan(4π/3) = sqrt(3)"
+                ],
+                [
+                  "The solutions for x in the interval [0, 2π) are: ",
+                  "π/3, 4π/3"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the exact value of the expression.",
+                "csc(5π/6)"
+              ],
+              "answer": "2",
+              "hint": [
+                "Recall the relationship between cosecant and sine.",
+                "csc(5π/6)"
+              ],
+              "work": [
+                [
+                  "Recall the relationship between cosecant and sine.",
+                  "csc(θ) = 1/sin(θ)"
+                ],
+                [
+                  "Use the fundamental trigonometric values.",
+                  "sin(5π/6) = 1/2"
+                ],
+                [
+                  "Find the reciprocal of the sine value.",
+                  "1/(1/2)"
+                ],
+                [
+                  "Simplify the expression.",
+                  "2"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3.Derivatives",
+          "problems": [
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "f(x) = 3x^2 - 4x + 7"
+              ],
+              "answer": "6x - 4",
+              "hint": [
+                "Apply the power rule.",
+                "f'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the power rule to each term.",
+                  "f'(x) = (3 * 2) * x^(2 - 1) - 4 * x^(1 - 1) + 0"
+                ],
+                [
+                  "Simplify the expression.",
+                  "6x - 4"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "g(x) = sqrt(x)"
+              ],
+              "answer": "1/(2sqrt(x))",
+              "hint": [
+                "Rewrite the function and apply the power rule.",
+                "g'(x)"
+              ],
+              "work": [
+                [
+                  "Rewrite the function as a power of x.",
+                  "g(x) = x^(1/2)"
+                ],
+                [
+                  "Apply the power rule.",
+                  "g'(x) = (1/2) * x^((1/2) - 1)"
+                ],
+                [
+                  "Simplify the expression.",
+                  "1/(2sqrt(x))"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "h(x) = 5/x"
+              ],
+              "answer": "-5/x^2",
+              "hint": [
+                "Rewrite the function and apply the power rule.",
+                "h'(x)"
+              ],
+              "work": [
+                [
+                  "Rewrite the function as a power of x.",
+                  "h(x) = 5x^(-1)"
+                ],
+                [
+                  "Apply the power rule.",
+                  "h'(x) = -5 * x^((-1) - 1)"
+                ],
+                [
+                  "Simplify the expression.",
+                  "-5/x^2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "k(x) = 4x^3 - 2x + 1"
+              ],
+              "answer": "12x^2 - 2",
+              "hint": [
+                "Apply the power rule.",
+                "k'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the power rule to each term.",
+                  "k'(x) = (4 * 3) * x^(3 - 1) - 2 * x^(1 - 1) + 0"
+                ],
+                [
+                  "Simplify the expression.",
+                  "12x^2 - 2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "f(x) = x^4 - 3x^3 + 2x^2 + x - 5"
+              ],
+              "answer": "4x^3 - 9x^2 + 4x + 1",
+              "hint": [
+                "Apply the power rule.",
+                "f'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the power rule to each term.",
+                  "f'(x) = 4x^3 - 9x^2 + 4x + 1"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "g(x) = (2x + 1)^2"
+              ],
+              "answer": "4(2x + 1)",
+              "hint": [
+                "Apply the chain rule.",
+                "g'(x)"
+              ],
+              "work": [
+                [
+                  "Rewrite the function using the power rule.",
+                  "g(x) = (2x + 1)^2"
+                ],
+                [
+                  "Apply the chain rule.",
+                  "g'(x) = 2 * (2x + 1)^(2 - 1) * (2)"
+                ],
+                [
+                  "Simplify the expression.",
+                  "4(2x + 1)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "h(x) = 1/x^2"
+              ],
+              "answer": "-2/x^3",
+              "hint": [
+                "Apply the power rule.",
+                "h'(x)"
+              ],
+              "work": [
+                [
+                  "Rewrite the function as a power of x.",
+                  "h(x) = x^(-2)"
+                ],
+                [
+                  "Apply the power rule.",
+                  "h'(x) = (-2) * x^((-2) - 1)"
+                ],
+                [
+                  "Simplify the expression.",
+                  "-2/x^3"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "k(x) = 3x^5 - 2x^3 + x^2 - 7"
+              ],
+              "answer": "15x^4 - 6x^2 + 2x",
+              "hint": [
+                "Apply the power rule.",
+                "k'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the power rule to each term.",
+                  "k'(x) = 15x^4 - 6x^2 + 2x"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "f(x) = 6x^4 - 4x^2 + 8x - 9"
+              ],
+              "answer": "24x^3 - 8x + 8",
+              "hint": [
+                "Apply the power rule.",
+                "f'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the power rule to each term.",
+                  "f'(x) = 24x^3 - 8x + 8"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "g(x) = (3x^2 + 2x - 1)^3"
+              ],
+              "answer": "3(3x^2 + 2x - 1)^2(6x + 2)",
+              "hint": [
+                "Apply the chain rule.",
+                "g'(x)"
+              ],
+              "work": [
+                [
+                  "Rewrite the function using the power rule.",
+                  "g(x) = (3x^2 + 2x - 1)^3"
+                ],
+                [
+                  "Apply the chain rule.",
+                  "g'(x) = 3 * (3x^2 + 2x - 1)^(3 - 1) * (6x + 2)"
+                ],
+                [
+                  "Simplify the expression.",
+                  "3(3x^2 + 2x - 1)^2(6x + 2)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "h(x) = 1/3x^3"
+              ],
+              "answer": "x^2",
+              "hint": [
+                "Apply the power rule.",
+                "h'(x)"
+              ],
+              "work": [
+                [
+                  "Rewrite the function as a power of x.",
+                  "h(x) = (1/3)x^3"
+                ],
+                [
+                  "Apply the power rule.",
+                  "h'(x) = (3) * (1/3) * x^(3 - 1)"
+                ],
+                [
+                  "Simplify the expression.",
+                  "x^2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "k(x) = 8x^3 - x^2 + 4x + 2"
+              ],
+              "answer": "24x^2 - 2x + 4",
+              "hint": [
+                "Apply the power rule.",
+                "k'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the power rule to each term.",
+                  "k'(x) = 24x^2 - 2x + 4"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3.Product and Quotient Rules",
+          "problems": [
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "f(x) = (x^2 + 1)(3x - 4)"
+              ],
+              "answer": "5x^2 - 2x - 4",
+              "hint": [
+                "Apply the product rule.",
+                "f'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the product rule.",
+                  "f'(x) = (2x)(3x - 4) + (x^2 + 1)(3)"
+                ],
+                [
+                  "Expand and simplify the expression.",
+                  "6x^2 - 8x + 3x^2 + 3"
+                ],
+                [
+                  "Combine like terms.",
+                  "5x^2 - 2x - 4"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "g(x) = (4x^3 - 2x)(x^2 + x + 1)"
+              ],
+              "answer": "8x^5 + 5x^4 - x^3 - 5x^2",
+              "hint": [
+                "Apply the product rule.",
+                "g'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the product rule.",
+                  "g'(x) = (12x^2 - 2)(x^2 + x + 1) + (4x^3 - 2x)(2x + 1)"
+                ],
+                [
+                  "Expand and simplify the expression.",
+                  "12x^4 + 11x^3 - x^2 - 8x^5 - x^4 + 2x^3"
+                ],
+                [
+                  "Combine like terms.",
+                  "8x^5 + 5x^4 - x^3 - 5x^2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "h(x) = (2x^2 - 3x)(x^3 + 1)"
+              ],
+              "answer": "5x^4 - 9x^3 + 6x^2 - 3x",
+              "hint": [
+                "Apply the product rule.",
+                "h'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the product rule.",
+                  "h'(x) = (4x - 3)(x^3 + 1) + (2x^2 - 3x)(3x^2)"
+                ],
+                [
+                  "Expand and simplify the expression.",
+                  "4x^4 - 3x^3 + 4x - 3 + 6x^4 - 9x^3"
+                ],
+                [
+                  "Combine like terms.",
+                  "5x^4 - 9x^3 + 6x^2 - 3x"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "k(x) = (x^2 - 1)(3x^2 + 2x - 4)"
+              ],
+              "answer": "8x^3 + 2x^2 - 12x",
+              "hint": [
+                "Apply the product rule.",
+                "k'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the product rule.",
+                  "k'(x) = (2x)(3x^2 + 2x - 4) + (x^2 - 1)(6x + 2)"
+                ],
+                [
+                  "Expand and simplify the expression.",
+                  "6x^3 + 4x^2 - 8x + 6x^3 + 2x - 6x - 2"
+                ],
+                [
+                  "Combine like terms.",
+                  "8x^3 + 2x^2 - 12x"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "f(x) = (x^3 - 2x^2 + x)(2x^2 + x - 3)"
+              ],
+              "answer": "5x^4 - 10x^3 - 3x^2 + 9x",
+              "hint": [
+                "Apply the product rule.",
+                "f'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the product rule.",
+                  "f'(x) = (3x^2 - 4x + 1)(2x^2 + x - 3) + (x^3 - 2x^2 + x)(4x + 1)"
+                ],
+                [
+                  "Expand and simplify the expression.",
+                  "6x^4 - 7x^3 - x^2 + 3x - 4x^3 + 4x^2 + 4x + 4x^4 - 4x^3 + 4x^2 - x"
+                ],
+                [
+                  "Combine like terms.",
+                  "5x^4 - 10x^3 - 3x^2 + 9x"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "g(x) = (3x^2 - x)(x^3 + 2x^2 - x)"
+              ],
+              "answer": "12x^4 - 5x^3 + 5x^2 + x",
+              "hint": [
+                "Apply the product rule.",
+                "g'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the product rule.",
+                  "g'(x) = (6x - 1)(x^3 + 2x^2 - x) + (3x^2 - x)(3x^2 + 4x - 1)"
+                ],
+                [
+                  "Expand and simplify the expression.",
+                  "6x^4 + 11x^3 - 5x^2 - x^3 - 2x^2 + x + 9x^4 - 3x^3 + 3x^2 - 4x^3 + x^2 - x"
+                ],
+                [
+                  "Combine like terms.",
+                  "12x^4 - 5x^3 + 5x^2 + x"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "h(x) = (4x^3 + x^2 - 2)(2x^2 - 3x + 1)"
+              ],
+              "answer": "44x^4 - 42x^3 + 22x^2 - 5x + 2",
+              "hint": [
+                "Apply the product rule.",
+                "h'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the product rule.",
+                  "h'(x) = (12x^2 + 2x)(2x^2 - 3x + 1) + (4x^3 + x^2 - 2)(4x - 3)"
+                ],
+                [
+                  "Expand and simplify the expression.",
+                  "24x^4 - 34x^3 + 10x^2 + 6x^2 - 6x + 2 + 16x^4 - 12x^3 + 12x^2 - 4x^3 + 3x^2 - 6"
+                ],
+                [
+                  "Combine like terms.",
+                  "44x^4 - 42x^3 + 22x^2 - 5x + 2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "f(x) = (3x^2 - 4x + 1) / (x^2 + 2x + 3)"
+              ],
+              "answer": "(-2x^3 + 4x^2 + 10x - 8) / (x^2 + 2x + 3)^2",
+              "hint": [
+                "Apply the quotient rule.",
+                "f'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the quotient rule.",
+                  "f'(x) = [(6x - 4)(x^2 + 2x + 3) - (3x^2 - 4x + 1)(2x + 2)] / (x^2 + 2x + 3)^2"
+                ],
+                [
+                  "Expand and simplify the expression.",
+                  "(-2x^3 + 4x^2 + 10x - 8) / (x^2 + 2x + 3)^2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "g(x) = (2x^3 - x^2 + 1) / (x^2 - 3x + 2)"
+              ],
+              "answer": "(5x^4 - 9x^3 + 5x^2 - 1) / (x^2 - 3x + 2)^2",
+              "hint": [
+                "Apply the quotient rule.",
+                "g'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the quotient rule.",
+                  "g'(x) = [(6x^2 - 2x)(x^2 - 3x + 2) - (2x^3 - x^2 + 1)(2x - 3)] / (x^2 - 3x + 2)^2"
+                ],
+                [
+                  "Expand and simplify the expression.",
+                  "(5x^4 - 9x^3 + 5x^2 - 1) / (x^2 - 3x + 2)^2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "h(x) = (x^3 - 2x + 1) / (3x^2 + x - 4)"
+              ],
+              "answer": "(x^4 + 4x^3 - 14x^2 - 7x + 8) / (3x^2 + x - 4)^2",
+              "hint": [
+                "Apply the quotient rule.",
+                "h'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the quotient rule.",
+                  "h'(x) = [(3x^2 - 2)(3x^2 + x - 4) - (x^3 - 2x + 1)(6x + 1)] / (3x^2 + x - 4)^2"
+                ],
+                [
+                  "Expand and simplify the expression.",
+                  "(x^4 + 4x^3 - 14x^2 - 7x + 8) / (3x^2 + x - 4)^2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "k(x) = (4x^2 - 3x + 2) / (x^3 + 5x^2 + 6x)"
+              ],
+              "answer": "(7x^5 + 10x^4 - 31x^3 - 60x^2 + 12x) / (x^3 + 5x^2 + 6x)^2",
+              "hint": [
+                "Apply the quotient rule.",
+                "k'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the quotient rule.",
+                  "k'(x) = [(8x - 3)(x^3 + 5x^2 + 6x) - (4x^2 - 3x + 2)(3x^2 + 10x + 6)] / (x^3 + 5x^2 + 6x)^2"
+                ],
+                [
+                  "Expand and simplify the expression.",
+                  "(7x^5 + 10x^4 - 31x^3 - 60x^2 + 12x) / (x^3 + 5x^2 + 6x)^2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "f(x) = (3x^2 - 5x + 2) / (2x^2 + x - 1)"
+              ],
+              "answer": "(x^4 - 4x^3 + x^2 + 7x) / (2x^2 + x - 1)^2",
+              "hint": [
+                "Apply the quotient rule.",
+                "f'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the quotient rule.",
+                  "f'(x) = [(6x - 5)(2x^2 + x - 1) - (3x^2 - 5x + 2)(4x + 1)] / (2x^2 + x - 1)^2"
+                ],
+                [
+                  "Expand and simplify the expression.",
+                  "(x^4 - 4x^3 + x^2 + 7x) / (2x^2 + x - 1)^2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "g(x) = (5x^3 - 2x^2 + 3x - 1) / (x^2 - 4)"
+              ],
+              "answer": "(15x^4 - 22x^3 + 7x^2 + 40x) / (x^2 - 4)^2",
+              "hint": [
+                "Apply the quotient rule.",
+                "g'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the quotient rule.",
+                  "g'(x) = [(15x^2 - 4x + 3)(x^2 - 4) - (5x^3 - 2x^2 + 3x - 1)(2x)] / (x^2 - 4)^2"
+                ],
+                [
+                  "Expand and simplify the expression.",
+                  "(15x^4 - 22x^3 + 7x^2 + 40x) / (x^2 - 4)^2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "h(x) = (x^3 + 2x^2 - x) / (3x^2 - 6x + 1)"
+              ],
+              "answer": "(x^5 - 6x^4 + 7x^3 + 6x^2 - 4x + 2) / (3x^2 - 6x + 1)^2",
+              "hint": [
+                "Apply the quotient rule.",
+                "h'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the quotient rule.",
+                  "h'(x) = [(3x^2 + 4x - 1)(3x^2 - 6x + 1) - (x^3 + 2x^2 - x)(6x - 6)] / (3x^2 - 6x + 1)^2"
+                ],
+                [
+                  "Expand and simplify the expression.",
+                  "(x^5 - 6x^4 + 7x^3 + 6x^2 - 4x + 2) / (3x^2 - 6x + 1)^2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "k(x) = (2x^3 - 3x^2 + x - 1) / (x^2 + 3x + 2)"
+              ],
+              "answer": "(x^5 - x^4 - 9x^3 + 7x^2 + 15x) / (x^2 + 3x + 2)^2",
+              "hint": [
+                "Apply the quotient rule.",
+                "k'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the quotient rule.",
+                  "k'(x) = [(6x^2 - 6x + 1)(x^2 + 3x + 2) - (2x^3 - 3x^2 + x - 1)(2x + 3)] / (x^2 + 3x + 2)^2"
+                ],
+                [
+                  "Expand and simplify the expression.",
+                  "(x^5 - x^4 - 9x^3 + 7x^2 + 15x) / (x^2 + 3x + 2)^2"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3.Chain Rule",
+          "problems": [
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "f(x) = (3x^2 - 4x + 1)^3"
+              ],
+              "answer": "6(3x^2 - 4x + 1)^2(6x - 4)",
+              "hint": [
+                "Apply the chain rule.",
+                "f'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the chain rule.",
+                  "f'(x) = 3(3x^2 - 4x + 1)^2(6x - 4)"
+                ],
+                [
+                  "Simplify the expression.",
+                  "f'(x) = 6(3x^2 - 4x + 1)^2(6x - 4)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "g(x) = sqrt(2x^3 - x^2 + 4)"
+              ],
+              "answer": "(3x^2 - x) / sqrt(2x^3 - x^2 + 4)",
+              "hint": [
+                "Apply the chain rule.",
+                "g'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the chain rule.",
+                  "g'(x) = (1/2)(2x^3 - x^2 + 4)^(-1/2)(6x^2 - 2x)"
+                ],
+                [
+                  "Simplify the expression.",
+                  "g'(x) = (3x^2 - x) / sqrt(2x^3 - x^2 + 4)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "h(x) = ln(5x^2 - 3x + 1)"
+              ],
+              "answer": "(10x - 3) / (5x^2 - 3x + 1)",
+              "hint": [
+                "Apply the chain rule.",
+                "h'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the chain rule.",
+                  "h'(x) = (1 / (5x^2 - 3x + 1))(10x - 3)"
+                ],
+                [
+                  "Simplify the expression.",
+                  "h'(x) = (10x - 3) / (5x^2 - 3x + 1)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "k(x) = e^(4x^2 - 2x + 3)"
+              ],
+              "answer": "e^(4x^2 - 2x + 3)(8x - 2)",
+              "hint": [
+                "Apply the chain rule.",
+                "k'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the chain rule.",
+                  "k'(x) = e^(4x^2 - 2x + 3)(8x - 2)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "f(x) = sin(x^2 + 3x)"
+              ],
+              "answer": "cos(x^2 + 3x)(2x + 3)",
+              "hint": [
+                "Apply the chain rule.",
+                "f'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the chain rule.",
+                  "f'(x) = cos(x^2 + 3x)(2x + 3)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "g(x) = (4x^2 - x + 2)^(-2)"
+              ],
+              "answer": "-8(4x^2 - x + 2)^(-3)(8x - 1)",
+              "hint": [
+                "Apply the chain rule.",
+                "g'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the chain rule.",
+                  "g'(x) = -2(4x^2 - x + 2)^(-3)(8x - 1)"
+                ],
+                [
+                  "Simplify the expression.",
+                  "g'(x) = -8(4x^2 - x + 2)^(-3)(8x - 1)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "h(x) = cos(3x^2 - 2x)"
+              ],
+              "answer": "-sin(3x^2 - 2x)(6x - 2)",
+              "hint": [
+                "Apply the chain rule.",
+                "h'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the chain rule.",
+                  "h'(x) = -sin(3x^2 - 2x)(6x - 2)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "k(x) = log(x^3 - 4x^2 + x)"
+              ],
+              "answer": "(3x^2 - 8x + 1) / (x^3 - 4x^2 + x)",
+              "hint": [
+                "Apply the chain rule.",
+                "k'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the chain rule.",
+                  "k'(x) = (1 / (x^3 - 4x^2 + x))(3x^2 - 8x + 1)"
+                ],
+                [
+                  "Simplify the expression.",
+                  "k'(x) = (3x^2 - 8x + 1) / (x^3 - 4x^2 + x)"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3.Trigonometric Derivatives",
+          "problems": [
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "f(x) = sin(x)"
+              ],
+              "answer": "cos(x)",
+              "hint": [
+                "Differentiate the sine function.",
+                "f'(x)"
+              ],
+              "work": [
+                [
+                  "Differentiate the sine function.",
+                  "f'(x) = cos(x)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "g(x) = cos(x)"
+              ],
+              "answer": "-sin(x)",
+              "hint": [
+                "Differentiate the cosine function.",
+                "g'(x)"
+              ],
+              "work": [
+                [
+                  "Differentiate the cosine function.",
+                  "g'(x) = -sin(x)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "h(x) = tan(x)"
+              ],
+              "answer": "sec^2(x)",
+              "hint": [
+                "Differentiate the tangent function.",
+                "h'(x)"
+              ],
+              "work": [
+                [
+                  "Differentiate the tangent function.",
+                  "h'(x) = sec^2(x)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "k(x) = sec(x)"
+              ],
+              "answer": "sec(x)tan(x)",
+              "hint": [
+                "Differentiate the secant function.",
+                "k'(x)"
+              ],
+              "work": [
+                [
+                  "Differentiate the secant function.",
+                  "k'(x) = sec(x)tan(x)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "f(x) = csc(x)"
+              ],
+              "answer": "-csc(x)cot(x)",
+              "hint": [
+                "Differentiate the cosecant function.",
+                "f'(x)"
+              ],
+              "work": [
+                [
+                  "Differentiate the cosecant function.",
+                  "f'(x) = -csc(x)cot(x)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "g(x) = cot(x)"
+              ],
+              "answer": "-csc^2(x)",
+              "hint": [
+                "Differentiate the cotangent function.",
+                "g'(x)"
+              ],
+              "work": [
+                [
+                  "Differentiate the cotangent function.",
+                  "g'(x) = -csc^2(x)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "h(x) = 2sin(x)cos(x)"
+              ],
+              "answer": "2(cos^2(x) - sin^2(x))",
+              "hint": [
+                "Use the product rule and simplify.",
+                "h'(x)"
+              ],
+              "work": [
+                [
+                  "Use the product rule.",
+                  "h'(x) = 2(cos(x)(cos(x)) - sin(x)(sin(x)))"
+                ],
+                [
+                  "Simplify the expression.",
+                  "h'(x) = 2(cos^2(x) - sin^2(x))"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "k(x) = cos(2x)"
+              ],
+              "answer": "-2sin(2x)",
+              "hint": [
+                "Apply the chain rule.",
+                "k'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the chain rule.",
+                  "k'(x) = -2sin(2x)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "f(x) = sin(3x)"
+              ],
+              "answer": "3cos(3x)",
+              "hint": [
+                "Apply the chain rule.",
+                "f'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the chain rule.",
+                  "f'(x) = 3cos(3x)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "g(x) = tan(2x)"
+              ],
+              "answer": "4sec^2(2x)",
+              "hint": [
+                "Apply the chain rule.",
+                "g'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the chain rule.",
+                  "g'(x) = 4sec^2(2x)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "h(x) = sec^2(4x)"
+              ],
+              "answer": "8sec^2(4x)tan(4x)",
+              "hint": [
+                "Apply the chain rule.",
+                "h'(x)"
+              ],
+              "work": [
+                [
+                  "Apply the chain rule.",
+                  "h'(x) = 8sec^2(4x)tan(4x)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the derivative of the function.",
+                "k(x) = csc(5x)cot(5x)"
+              ],
+              "answer": "-25csc^2(5x)",
+              "hint": [
+                "Use the product rule and simplify.",
+                "k'(x)"
+              ],
+              "work": [
+                [
+                  "Use the product rule.",
+                  "k'(x) = -csc(5x)(5cot(5x)) - cot(5x)(5csc(5x))"
+                ],
+                [
+                  "Simplify the expression.",
+                  "k'(x) = -25csc^2(5x)"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4.Local Extrema and Critical Points",
+          "problems": [
+            {
+              "question": [
+                "Find the critical points and local extrema of the function.",
+                "f(x) = x^3 - 6x^2 + 9x + 2"
+              ],
+              "answer": "Critical points: (1, 6), Local minimum at x = 1",
+              "hint": [
+                "Find the first derivative, set it equal to zero, and solve for x.",
+                "f'(x)"
+              ],
+              "work": [
+                [
+                  "Find the first derivative.",
+                  "f'(x) = 3x^2 - 12x + 9"
+                ],
+                [
+                  "Set the first derivative equal to zero.",
+                  "3x^2 - 12x + 9 = 0"
+                ],
+                [
+                  "Solve for x.",
+                  "x = 1"
+                ],
+                [
+                  "Determine local extrema.",
+                  "Local minimum at x = 1"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the critical points and local extrema of the function.",
+                "g(x) = x^4 - 4x^3"
+              ],
+              "answer": "Critical points: (0, 3), Local minimum at x = 3, Local maximum at x = 0",
+              "hint": [
+                "Find the first derivative, set it equal to zero, and solve for x.",
+                "g'(x)"
+              ],
+              "work": [
+                [
+                  "Find the first derivative.",
+                  "g'(x) = 4x^3 - 12x^2"
+                ],
+                [
+                  "Set the first derivative equal to zero.",
+                  "4x^3 - 12x^2 = 0"
+                ],
+                [
+                  "Solve for x.",
+                  "x = 0, 3"
+                ],
+                [
+                  "Determine local extrema.",
+                  "Local minimum at x = 3, Local maximum at x = 0"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the critical points and local extrema of the function.",
+                "h(x) = x^5 - 5x^3"
+              ],
+              "answer": "Critical points: (-1, 0, 1), Local maximum at x = -1, Local minimum at x = 1, Inflection point at x = 0",
+              "hint": [
+                "Find the first derivative, set it equal to zero, and solve for x.",
+                "h'(x)"
+              ],
+              "work": [
+                [
+                  "Find the first derivative.",
+                  "h'(x) = 5x^4 - 15x^2"
+                ],
+                [
+                  "Set the first derivative equal to zero.",
+                  "5x^4 - 15x^2 = 0"
+                ],
+                [
+                  "Solve for x.",
+                  "x = -1, 0, 1"
+                ],
+                [
+                  "Determine local extrema.",
+                  "Local maximum at x = -1, Local minimum at x = 1, Inflection point at x = 0"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the critical points and local extrema of the function.",
+                "k(x) = (x^2 - 4x + 4)(x - 2)"
+              ],
+              "answer": "Critical points: (2, 4), Local maximum at x = 2, Local minimum at x = 4",
+              "hint": [
+                "Find the first derivative, set it equal to zero, and solve for x.",
+                "k'(x)"
+              ],
+              "work": [
+                [
+                  "Find the first derivative.",
+                  "k'(x) = (2x - 4)(x - 2) + (x^2 - 4x + 4)"
+                ],
+                [
+                  "Set the first derivative equal to zero.",
+                  "k'(x) = 0"
+                ],
+                [
+                  "Solve for x.",
+                  "x = 2, 4"
+                ],
+                [
+                  "Determine local extrema.",
+                  "Local maximum at x = 2, Local minimum at x = 4"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the critical points and local extrema of the function.",
+                "f(x) = x^3 - 9x^2 + 24x"
+              ],
+              "answer": "Critical points: (2, 4), Local maximum at x = 2, Local minimum at x = 4",
+              "hint": [
+                "Find the first derivative, set it equal to zero, and solve for x.",
+                "f'(x)"
+              ],
+              "work": [
+                [
+                  "Find the first derivative.",
+                  "f'(x) = 3x^2 - 18x + 24"
+                ],
+                [
+                  "Set the first derivative equal to zero.",
+                  "3x^2 - 18x + 24 = 0"
+                ],
+                [
+                  "Solve for x.",
+                  "x = 2, 4"
+                ],
+                [
+                  "Determine local extrema.",
+                  "Local maximum at x = 2, Local minimum at x = 4"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the critical points and local extrema of the function.",
+                "g(x) = x^4 - 8x^2 + 16"
+              ],
+              "answer": "Critical points: (0, ±2), Local minimum at x = 0, Local maximum at x = ±2",
+              "hint": [
+                "Find the first derivative, set it equal to zero, and solve for x.",
+                "g'(x)"
+              ],
+              "work": [
+                [
+                  "Find the first derivative.",
+                  "g'(x) = 4x^3 - 16x"
+                ],
+                [
+                  "Set the first derivative equal to zero.",
+                  "4x^3 - 16x = 0"
+                ],
+                [
+                  "Solve for x.",
+                  "x = 0, ±2"
+                ],
+                [
+                  "Determine local extrema.",
+                  "Local minimum at x = 0, Local maximum at x = ±2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the critical points and local extrema of the function.",
+                "h(x) = 3x^5 - 20x^3 + 4x"
+              ],
+              "answer": "Critical points: (0, ±2), Local minimum at x = ±2, Local maximum at x = 0",
+              "hint": [
+                "Find the first derivative, set it equal to zero, and solve for x.",
+                "h'(x)"
+              ],
+              "work": [
+                [
+                  "Find the first derivative.",
+                  "h'(x) = 15x^4 - 60x^2 + 4"
+                ],
+                [
+                  "Set the first derivative equal to zero.",
+                  "15x^4 - 60x^2 + 4 = 0"
+                ],
+                [
+                  "Solve for x.",
+                  "x = 0, ±2"
+                ],
+                [
+                  "Determine local extrema.",
+                  "Local minimum at x = ±2, Local maximum at x = 0"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the critical points and local extrema of the function.",
+                "f(x) = x^3 - 3x^2 - 9x + 5"
+              ],
+              "answer": "Critical points: (-1, 3), Local minimum at x = -1, Local maximum at x = 3",
+              "hint": [
+                "Find the first derivative, set it equal to zero, and solve for x.",
+                "f'(x)"
+              ],
+              "work": [
+                [
+                  "Find the first derivative.",
+                  "f'(x) = 3x^2 - 6x - 9"
+                ],
+                [
+                  "Set the first derivative equal to zero.",
+                  "3x^2 - 6x - 9 = 0"
+                ],
+                [
+                  "Solve for x.",
+                  "x = -1, 3"
+                ],
+                [
+                  "Determine local extrema.",
+                  "Local minimum at x = -1, Local maximum at x = 3"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the critical points and local extrema of the function.",
+                "g(x) = -x^4 + 4x^2 + 8x"
+              ],
+              "answer": "Critical points: (-2, 0, 2), Local maximum at x = -2, Local minimum at x = 2, Inflection point at x = 0",
+              "hint": [
+                "Find the first derivative, set it equal to zero, and solve for x.",
+                "g'(x)"
+              ],
+              "work": [
+                [
+                  "Find the first derivative.",
+                  "g'(x) = -4x^3 + 8x + 8"
+                ],
+                [
+                  "Set the first derivative equal to zero.",
+                  "-4x^3 + 8x + 8 = 0"
+                ],
+                [
+                  "Solve for x.",
+                  "x = -2, 0, 2"
+                ],
+                [
+                  "Determine local extrema.",
+                  "Local maximum at x = -2, Local minimum at x = 2, Inflection point at x = 0"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the critical points and local extrema of the function.",
+                "h(x) = x^3 - 6x^2 + 12x - 5"
+              ],
+              "answer": "Critical points: (2, 4), Local maximum at x = 2, Local minimum at x = 4",
+              "hint": [
+                "Find the first derivative, set it equal to zero, and solve for x.",
+                "h'(x)"
+              ],
+              "work": [
+                [
+                  "Find the first derivative.",
+                  "h'(x) = 3x^2 - 12x + 12"
+                ],
+                [
+                  "Set the first derivative equal to zero.",
+                  "3x^2 - 12x + 12 = 0"
+                ],
+                [
+                  "Solve for x.",
+                  "x = 2, 4"
+                ],
+                [
+                  "Determine local extrema.",
+                  "Local maximum at x = 2, Local minimum at x = 4"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4.Optimization",
+          "problems": [
+            {
+              "question": [
+                "Find the critical points and local extrema of the function.",
+                "h(x) = x^3 - 6x^2 + 12x - 5"
+              ],
+              "answer": "Critical points: (2, 4), Local maximum at x = 2, Local minimum at x = 4",
+              "hint": [
+                "Find the first derivative, set it equal to zero, and solve for x.",
+                "h'(x)"
+              ],
+              "work": [
+                [
+                  "Find the first derivative.",
+                  "h'(x) = 3x^2 - 12x + 12"
+                ],
+                [
+                  "Set the first derivative equal to zero.",
+                  "3x^2 - 12x + 12 = 0"
+                ],
+                [
+                  "Solve for x.",
+                  "x = 2, 4"
+                ],
+                [
+                  "Determine local extrema.",
+                  "Local maximum at x = 2, Local minimum at x = 4"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "A farmer has 2400 feet of fencing to enclose a rectangular pasture. What dimensions should the pasture have to maximize the area?",
+                "x*y"
+              ],
+              "answer": "Dimensions: 600ft by 600ft",
+              "hint": [
+                "Write an equation for the perimeter and use it to express one variable in terms of the other.",
+                "Perimeter"
+              ],
+              "work": [
+                [
+                  "Write an equation for the perimeter.",
+                  "2x + 2y = 2400"
+                ],
+                [
+                  "Express one variable in terms of the other.",
+                  "y = 1200 - x"
+                ],
+                [
+                  "Write the equation for the area.",
+                  "A(x) = x(1200 - x)"
+                ],
+                [
+                  "Find the critical points.",
+                  "A'(x) = 1200 - 2x"
+                ],
+                [
+                  "Set the first derivative equal to zero.",
+                  "1200 - 2x = 0"
+                ],
+                [
+                  "Solve for x.",
+                  "x = 600"
+                ],
+                [
+                  "Find the corresponding y value.",
+                  "y = 600"
+                ],
+                [
+                  "Determine the dimensions.",
+                  "Dimensions: 600ft by 600ft"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "A box with an open top is to be constructed from a square piece of cardboard with side length 16 inches by cutting out a square from each corner and folding up the sides. What size squares should be cut out to maximize the volume of the box?",
+                "V = x(16-2x)^2"
+              ],
+              "answer": "Square size: 16/6 inches",
+              "hint": [
+                "Write an equation for the volume of the box and find the critical points.",
+                "Volume"
+              ],
+              "work": [
+                [
+                  "Write the equation for the volume.",
+                  "V(x) = x(16 - 2x)^2"
+                ],
+                [
+                  "Find the critical points.",
+                  "V'(x) = (16 - 2x)^2 - 4x(16 - 2x)"
+                ],
+                [
+                  "Set the first derivative equal to zero.",
+                  "V'(x) = 0"
+                ],
+                [
+                  "Solve for x.",
+                  "x = 16/6"
+                ],
+                [
+                  "Determine the size of the squares.",
+                  "Square size: 16/6 inches"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "A cylindrical can with an open top is to be made to hold 1000 cubic centimeters of liquid. What dimensions should the can have to minimize the surface area?",
+                "A = 2πrh + πr^2"
+              ],
+              "answer": "Dimensions: r ≈ 5.42 cm, h ≈ 10.84 cm",
+              "hint": [
+                "Write an equation for the volume and use it to express one variable in terms of the other.",
+                "Volume"
+              ],
+              "work": [
+                [
+                  "Write an equation for the volume.",
+                  "V = πr^2h"
+                ],
+                [
+                  "Express one variable in terms of the other.",
+                  "h = 1000/(πr^2)"
+                ],
+                [
+                  "Write the equation for the surface area.",
+                  "A(r) = 2πrh + πr^2"
+                ],
+                [
+                  "Substitute h.",
+                  "A(r) = 2000/r + πr^2"
+                ],
+                [
+                  "Find the critical points.",
+                  "A'(r) = -2000/r^2 + 2πr"
+                ],
+                [
+                  "Set the first derivative equal to zero.",
+                  "A'(r) = 0"
+                ],
+                [
+                  "Solve for r.",
+                  "r ≈ 5.42 cm"
+                ],
+                [
+                  "Find the corresponding h value.",
+                  "h ≈ 10.84 cm"
+                ],
+                [
+                  "Determine the dimensions.",
+                  "Dimensions: r ≈ 5.42 cm, h ≈ 10.84 cm"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "A rectangular garden is to be fenced on three sides, with one side against a house. If 100 feet of fencing is available, what dimensions should be used to maximize the area of the garden?",
+                "x*y"
+              ],
+              "answer": "Dimensions: 50ft by 25ft",
+              "hint": [
+                "Write an equation for the perimeter and use it to express one variable in terms of the other.",
+                "Perimeter"
+              ],
+              "work": [
+                [
+                  "Write an equation for the perimeter.",
+                  "x + 2y = 100"
+                ],
+                [
+                  "Express one variable in terms of the other.",
+                  "y = (100 - x)/2"
+                ],
+                [
+                  "Write the equation for the area.",
+                  "A(x) = x(100 - x)/2"
+                ],
+                [
+                  "Find the critical points.",
+                  "A'(x) = 50 - x"
+                ],
+                [
+                  "Set the first derivative equal to zero.",
+                  "50 - x = 0"
+                ],
+                [
+                  "Solve for x.",
+                  "x = 50"
+                ],
+                [
+                  "Find the corresponding y value.",
+                  "y = 25"
+                ],
+                [
+                  "Determine the dimensions.",
+                  "Dimensions: 50ft by 25ft"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "A Norman window has the shape of a rectangle surmounted by a semicircle. If the perimeter of the window is 30 meters, what dimensions should the window have to maximize the area?",
+                "x*y + 0.5*π*(x/2)^2"
+              ],
+              "answer": "Dimensions: x ≈ 7.54 m, y ≈ 5.46 m",
+              "hint": [
+                "Write an equation for the perimeter and use it to express one variable in terms of the other.",
+                "Perimeter"
+              ],
+              "work": [
+                [
+                  "Write an equation for the perimeter.",
+                  "x + 2y + π(x/2) = 30"
+                ],
+                [
+                  "Express one variable in terms of the other.",
+                  "y = (30 - π(x/2))/2 - x/2"
+                ],
+                [
+                  "Write the equation for the area.",
+                  "A(x) = x((30 - π(x/2))/2 - x/2) + 0.5*π*(x/2)^2"
+                ],
+                [
+                  "Find the critical points.",
+                  "A'(x)"
+                ],
+                [
+                  "Set the first derivative equal to zero.",
+                  "A'(x) = 0"
+                ],
+                [
+                  "Solve for x.",
+                  "x ≈ 7.54 m"
+                ],
+                [
+                  "Find the corresponding y value.",
+                  "y ≈ 5.46 m"
+                ],
+                [
+                  "Determine the dimensions.",
+                  "Dimensions: x ≈ 7.54 m, y ≈ 5.46 m"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "A rectangular page is to contain 36 square inches of print. The top and bottom margins are each 1.5 inches and the side margins are each 1 inch. What dimensions of the page will minimize the amount of paper used?",
+                "x*y"
+              ],
+              "answer": "Dimensions: x ≈ 9.6 in, y ≈ 6.4 in",
+              "hint": [
+                "Write an equation for the printed area and use it to express one variable in terms of the other.",
+                "Printed area"
+              ],
+              "work": [
+                [
+                  "Write an equation for the printed area.",
+                  "(x - 2)(y - 3) = 36"
+                ],
+                [
+                  "Express one variable in terms of the other.",
+                  "y = 3 + 36/(x - 2)"
+                ],
+                [
+                  "Write the equation for the area of the paper.",
+                  "A(x) = x(3 + 36/(x - 2))"
+                ],
+                [
+                  "Find the critical points.",
+                  "A'(x)"
+                ],
+                [
+                  "Set the first derivative equal to zero.",
+                  "A'(x) = 0"
+                ],
+                [
+                  "Solve for x.",
+                  "x ≈ 9.6 in"
+                ],
+                [
+                  "Find the corresponding y value.",
+                  "y ≈ 6.4 in"
+                ],
+                [
+                  "Determine the dimensions.",
+                  "Dimensions: x ≈ 9.6 in, y ≈ 6.4 in"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4.Antiderivative",
+          "problems": [
+            {
+              "question": "Find the antiderivative of the function: f(x) = 3x^2 - 4x + 1",
+              "answer": "F(x) = x^3 - 2x^2 + x + C",
+              "hint": "Use the reverse power rule for antiderivatives.",
+              "work": [
+                [
+                  "Apply the reverse power rule.",
+                  "x^3 - 2x^2 + x + C"
+                ],
+                [
+                  "Write the antiderivative.",
+                  "F(x) = x^3 - 2x^2 + x + C"
+                ]
+              ]
+            },
+            {
+              "question": "Find the antiderivative of the function: g(x) = 6x^3 + 2x^(-1)",
+              "answer": "G(x) = (3/2)x^4 - 2x^0 + C",
+              "hint": "Use the reverse power rule for antiderivatives.",
+              "work": [
+                [
+                  "Apply the reverse power rule.",
+                  "(3/2)x^4 - 2x^0 + C"
+                ],
+                [
+                  "Write the antiderivative.",
+                  "G(x) = (3/2)x^4 - 2x^0 + C"
+                ]
+              ]
+            },
+            {
+              "question": "Find the antiderivative of the function: h(x) = 2x^2 - 5x^(-1) + x^0",
+              "answer": "H(x) = (2/3)x^3 + 5x^0 + x^1 + C",
+              "hint": "Use the reverse power rule for antiderivatives.",
+              "work": [
+                [
+                  "Apply the reverse power rule.",
+                  "(2/3)x^3 + 5x^0 + x^1 + C"
+                ],
+                [
+                  "Write the antiderivative.",
+                  "H(x) = (2/3)x^3 + 5x^0 + x^1 + C"
+                ]
+              ]
+            },
+            {
+              "question": "Find the antiderivative of the function: k(x) = x^(-1) + x^(-2) - x^1",
+              "answer": "K(x) = x^0 - x^(-1) - (1/2)x^2 + C",
+              "hint": "Use the reverse power rule for antiderivatives.",
+              "work": [
+                [
+                  "Apply the reverse power rule.",
+                  "x^0 - x^(-1) - (1/2)x^2 + C"
+                ],
+                [
+                  "Write the antiderivative.",
+                  "K(x) = x^0 - x^(-1) - (1/2)x^2 + C"
+                ]
+              ]
+            },
+            {
+              "question": "Find the antiderivative of the function: f(x) = 4x^3 - 3x^2",
+              "answer": "F(x) = x^4 - x^3 + C",
+              "hint": "Use the reverse power rule for antiderivatives.",
+              "work": [
+                [
+                  "Apply the reverse power rule.",
+                  "x^4 - x^3 + C"
+                ],
+                [
+                  "Write the antiderivative.",
+                  "F(x) = x^4 - x^3 + C"
+                ]
+              ]
+            },
+            {
+              "question": "Find the antiderivative of the function: g(x) = 2x^2 - 4",
+              "answer": "G(x) = (2/3)x^3 - 4x + C",
+              "hint": "Use the reverse power rule for antiderivatives.",
+              "work": [
+                [
+                  "Apply the reverse power rule.",
+                  "(2/3)x^3 - 4x + C"
+                ],
+                [
+                  "Write the antiderivative.",
+                  "G(x) = (2/3)x^3 - 4x + C"
+                ]
+              ]
+            },
+            {
+              "question": "Find the antiderivative of the function: h(x) = 3x^3 + 1",
+              "answer": "H(x) = (3/4)x^4 + x + C",
+              "hint": "Use the reverse power rule for antiderivatives.",
+              "work": [
+                [
+                  "Apply the reverse power rule.",
+                  "(3/4)x^4 + x + C"
+                ],
+                [
+                  "Write the antiderivative.",
+                  "H(x) = (3/4)x^4 + x + C"
+                ]
+              ]
+            },
+            {
+              "question": "Find the antiderivative of the function: k(x) = x^4 - 5x^2 + 3",
+              "answer": "K(x) = (1/5)x^5 - (5/3)x^3 + 3x + C",
+              "hint": "Use the reverse power rule for antiderivatives.",
+              "work": [
+                [
+                  "Apply the reverse power rule.",
+                  "(1/5)x^5 - (5/3)x^3 + 3x + C"
+                ],
+                [
+                  "Write the antiderivative.",
+                  "K(x) = (1/5)x^5 - (5/3)x^3 + 3x + C"
+                ]
+              ]
+            },
+            {
+              "question": "Find the antiderivative of the function: m(x) = 6x^5 - 3x^3 + 2",
+              "answer": "M(x) = x^6 - (3/4)x^4 + 2x + C",
+              "hint": "Use the reverse power rule for antiderivatives.",
+              "work": [
+                [
+                  "Apply the reverse power rule.",
+                  "x^6 - (3/4)x^4 + 2x + C"
+                ],
+                [
+                  "Write the antiderivative.",
+                  "M(x) = x^6 - (3/4)x^4 + 2x + C"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5.Indefinite Integrals and u Substitution",
+          "problems": [
+            {
+              "question": [
+                "Evaluate the indefinite integral using u-substitution.",
+                "∫ (2x * e^(x^2)) dx"
+              ],
+              "answer": "e^(x^2) + C",
+              "hint": "Let u = x^2, then du = 2x dx.",
+              "work": [
+                [
+                  "Perform u-substitution.",
+                  "∫ e^u du"
+                ],
+                [
+                  "Integrate.",
+                  "e^u + C"
+                ],
+                [
+                  "Substitute back for x.",
+                  "e^(x^2) + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral using u-substitution.",
+                "∫ (x^2 * cos(x^3)) dx"
+              ],
+              "answer": "(1/3)sin(x^3) + C",
+              "hint": "Let u = x^3, then du = 3x^2 dx.",
+              "work": [
+                [
+                  "Perform u-substitution.",
+                  "∫ (1/3)cos(u) du"
+                ],
+                [
+                  "Integrate.",
+                  "(1/3)sin(u) + C"
+                ],
+                [
+                  "Substitute back for x.",
+                  "(1/3)sin(x^3) + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral using u-substitution.",
+                "∫ (sin(x) * cos(x)) dx"
+              ],
+              "answer": "(1/2)sin^2(x) + C",
+              "hint": "Let u = sin(x), then du = cos(x) dx.",
+              "work": [
+                [
+                  "Perform u-substitution.",
+                  "∫ u du"
+                ],
+                [
+                  "Integrate.",
+                  "(1/2)u^2 + C"
+                ],
+                [
+                  "Substitute back for x.",
+                  "(1/2)sin^2(x) + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral using u-substitution.",
+                "∫ ((1 + x) / (1 + x^2)) dx"
+              ],
+              "answer": "(1/2)ln(1 + x^2) + x + C",
+              "hint": "Let u = 1 + x^2, then du = 2x dx.",
+              "work": [
+                [
+                  "Perform u-substitution.",
+                  "∫ (1 + (1/2)(1/u)) du"
+                ],
+                [
+                  "Integrate.",
+                  "x + (1/2)ln(u) + C"
+                ],
+                [
+                  "Substitute back for x.",
+                  "(1/2)ln(1 + x^2) + x + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral using u-substitution.",
+                "∫ (x * e^(x^2 + 1)) dx"
+              ],
+              "answer": "(1/2)e^(x^2 + 1) + C",
+              "hint": "Let u = x^2 + 1, then du = 2x dx.",
+              "work": [
+                [
+                  "Perform u-substitution.",
+                  "∫ (1/2)e^u du"
+                ],
+                [
+                  "Integrate.",
+                  "(1/2)e^u + C"
+                ],
+                [
+                  "Substitute back for x.",
+                  "(1/2)e^(x^2 + 1) + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral using u-substitution.",
+                "∫ (x^4 * sqrt(x^5 + 2)) dx"
+              ],
+              "answer": "(2/3)(x^5 + 2)^(3/2) + C",
+              "hint": "Let u = x^5 + 2, then du = 5x^4 dx.",
+              "work": [
+                [
+                  "Perform u-substitution.",
+                  "∫ (1/5)u^(1/2) du"
+                ],
+                [
+                  "Integrate.",
+                  "(2/15)u^(3/2) + C"
+                ],
+                [
+                  "Substitute back for x.",
+                  "(2/3)(x^5 + 2)^(3/2) + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral using u-substitution.",
+                "∫ ((3x^2 - 1) / (x^3 - x + 1)) dx"
+              ],
+              "answer": "ln|x^3 - x + 1| + C",
+              "hint": "Let u = x^3 - x + 1, then du = 3x^2 - 1 dx.",
+              "work": [
+                [
+                  "Perform u-substitution.",
+                  "∫ (1/u) du"
+                ],
+                [
+                  "Integrate.",
+                  "ln|u| + C"
+                ],
+                [
+                  "Substitute back for x.",
+                  "ln|x^3 - x + 1| + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral using u-substitution.",
+                "∫ (tan(x) * sec^2(x)) dx"
+              ],
+              "answer": "tan^2(x) + C",
+              "hint": "Let u = tan(x), then du = sec^2(x) dx.",
+              "work": [
+                [
+                  "Perform u-substitution.",
+                  "∫ u du"
+                ],
+                [
+                  "Integrate.",
+                  "(1/2)u^2 + C"
+                ],
+                [
+                  "Substitute back for x.",
+                  "tan^2(x) + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral using u-substitution.",
+                "∫ (sin(3x) * cos(3x)) dx"
+              ],
+              "answer": "(1/6)sin^2(3x) + C",
+              "hint": "Let u = sin(3x), then du = 3cos(3x) dx.",
+              "work": [
+                [
+                  "Perform u-substitution.",
+                  "∫ (1/3)u du"
+                ],
+                [
+                  "Integrate.",
+                  "(1/6)u^2 + C"
+                ],
+                [
+                  "Substitute back for x.",
+                  "(1/6)sin^2(3x) + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral using u-substitution.",
+                "∫ (e^(5x) / (1 + e^(10x))) dx"
+              ],
+              "answer": "(1/10)ln(1 + e^(10x)) + C",
+              "hint": "Let u = 1 + e^(10x), then du = 10e^(10x) dx.",
+              "work": [
+                [
+                  "Perform u-substitution.",
+                  "∫ (1/10)(1/u) du"
+                ],
+                [
+                  "Integrate.",
+                  "(1/10)ln|u| + C"
+                ],
+                [
+                  "Substitute back for x.",
+                  "(1/10)ln(1 + e^(10x)) + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral using u-substitution.",
+                "∫ (x^3 * (x^4 + 1)^5) dx"
+              ],
+              "answer": "(1/4)(x^4 + 1)^6 + C",
+              "hint": "Let u = x^4 + 1, then du = 4x^3 dx.",
+              "work": [
+                [
+                  "Perform u-substitution.",
+                  "∫ (1/4)u^5 du"
+                ],
+                [
+                  "Integrate.",
+                  "(1/24)u^6 + C"
+                ],
+                [
+                  "Substitute back for x.",
+                  "(1/4)(x^4 + 1)^6 + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral using u-substitution.",
+                "∫ ((5x^4 - 3) / (x^5 - 3x + 2)) dx"
+              ],
+              "answer": "ln|x^5 - 3x + 2| + C",
+              "hint": "Let u = x^5 - 3x + 2, then du = 5x^4 - 3 dx.",
+              "work": [
+                [
+                  "Perform u-substitution.",
+                  "∫ (1/u) du"
+                ],
+                [
+                  "Integrate.",
+                  "ln|u| + C"
+                ],
+                [
+                  "Substitute back for x.",
+                  "ln|x^5 - 3x + 2| + C"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5. Definite Integral",
+          "problems": [
+            {
+              "question": [
+                "Evaluate the definite integral.",
+                "∫ (x^3 - 3x + 1) dx",
+                "from -1 to 2"
+              ],
+              "answer": "4.75",
+              "hint": [
+                "Find the antiderivative and then use the Fundamental Theorem of Calculus.",
+                "F(x)"
+              ],
+              "work": [
+                [
+                  "Find the antiderivative.",
+                  "(1/4)x^4 - (3/2)x^2 + x + C"
+                ],
+                [
+                  "Apply the Fundamental Theorem of Calculus.",
+                  "[(1/4)(2^4) - (3/2)(2^2) + 2] - [(1/4)(-1^4) - (3/2)(-1^2) + (-1)]"
+                ],
+                [
+                  "Calculate the definite integral.",
+                  "4.75"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the definite integral.",
+                "∫ (3x^2 - 5x + 2) dx",
+                "from 0 to 1"
+              ],
+              "answer": "-1",
+              "hint": [
+                "Find the antiderivative and then use the Fundamental Theorem of Calculus.",
+                "F(x)"
+              ],
+              "work": [
+                [
+                  "Find the antiderivative.",
+                  "(1)x^3 - (5/2)x^2 + 2x + C"
+                ],
+                [
+                  "Apply the Fundamental Theorem of Calculus.",
+                  "[(1)(1^3) - (5/2)(1^2) + 2(1)] - [(1)(0^3) - (5/2)(0^2) + 2(0)]"
+                ],
+                [
+                  "Calculate the definite integral.",
+                  "-1"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the definite integral.",
+                "∫ (2x^2 - 3x) dx",
+                "from 1 to 3"
+              ],
+              "answer": "14",
+              "hint": [
+                "Find the antiderivative and then use the Fundamental Theorem of Calculus.",
+                "F(x)"
+              ],
+              "work": [
+                [
+                  "Find the antiderivative.",
+                  "(2/3)x^3 - (3/2)x^2 + C"
+                ],
+                [
+                  "Apply the Fundamental Theorem of Calculus.",
+                  "[(2/3)(3^3) - (3/2)(3^2)] - [(2/3)(1^3) - (3/2)(1^2)]"
+                ],
+                [
+                  "Calculate the definite integral.",
+                  "14"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the definite integral.",
+                "∫ (3e^x - 2) dx",
+                "from 0 to 2"
+              ],
+              "answer": "5e - 6",
+              "hint": [
+                "Find the antiderivative and then use the Fundamental Theorem of Calculus.",
+                "F(x)"
+              ],
+              "work": [
+                [
+                  "Find the antiderivative.",
+                  "3e^x - 2x + C"
+                ],
+                [
+                  "Apply the Fundamental Theorem of Calculus.",
+                  "[3e^2 - 2(2)] - [3e^0 - 2(0)]"
+                ],
+                [
+                  "Calculate the definite integral.",
+                  "5e - 6"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the definite integral.",
+                "∫ (3x^2 - 4x + 2) dx",
+                "from 0 to 3"
+              ],
+              "answer": "10.5",
+              "hint": "Find the antiderivative and then use the Fundamental Theorem of Calculus.",
+              "work": [
+                [
+                  "Find the antiderivative.",
+                  "(x^3 - 2x^2 + 2x) + C"
+                ],
+                [
+                  "Apply the Fundamental Theorem of Calculus.",
+                  "[(3^3 - 2(3^2) + 2(3))] - [(0^3 - 2(0^2) + 2(0))]"
+                ],
+                [
+                  "Calculate the definite integral.",
+                  "10.5"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the definite integral.",
+                "∫ cos(x) dx",
+                "from 0 to π/2"
+              ],
+              "answer": "1",
+              "hint": "Find the antiderivative and then use the Fundamental Theorem of Calculus.",
+              "work": [
+                [
+                  "Find the antiderivative.",
+                  "sin(x) + C"
+                ],
+                [
+                  "Apply the Fundamental Theorem of Calculus.",
+                  "sin(π/2) - sin(0)"
+                ],
+                [
+                  "Calculate the definite integral.",
+                  "1"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the definite integral.",
+                "∫ (4x^3 - 3x^2 + 2x) dx",
+                "from 1 to 2"
+              ],
+              "answer": "14",
+              "hint": "Find the antiderivative and then use the Fundamental Theorem of Calculus.",
+              "work": [
+                [
+                  "Find the antiderivative.",
+                  "(x^4 - x^3 + x^2) + C"
+                ],
+                [
+                  "Apply the Fundamental Theorem of Calculus.",
+                  "[(2^4 - 2^3 + 2^2)] - [(1^4 - 1^3 + 1^2)]"
+                ],
+                [
+                  "Calculate the definite integral.",
+                  "14"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the definite integral.",
+                "∫ e^x dx",
+                "from 0 to 1"
+              ],
+              "answer": "e - 1",
+              "hint": "Find the antiderivative and then use the Fundamental Theorem of Calculus.",
+              "work": [
+                [
+                  "Find the antiderivative.",
+                  "e^x + C"
+                ],
+                [
+                  "Apply the Fundamental Theorem of Calculus.",
+                  "e^(1) - e^(0)"
+                ],
+                [
+                  "Calculate the definite integral.",
+                  "e - 1"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the definite integral.",
+                "∫ (2x + 1) dx",
+                "from 0 to 2"
+              ],
+              "answer": "6",
+              "hint": "Find the antiderivative and then use the Fundamental Theorem of Calculus.",
+              "work": [
+                [
+                  "Find the antiderivative.",
+                  "x^2 + x + C"
+                ],
+                [
+                  "Apply the Fundamental Theorem of Calculus.",
+                  "[(2^2) + 2] - [(0^2) + 0]"
+                ],
+                [
+                  "Calculate the definite integral.",
+                  "6"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the definite integral.",
+                "∫ (x^2 - 2x) dx",
+                "from -1 to 1"
+              ],
+              "answer": "-4/3",
+              "hint": "Find the antiderivative and then use the Fundamental Theorem of Calculus.",
+              "work": [
+                [
+                  "Find the antiderivative.",
+                  "(1/3)x^3 - x^2 + C"
+                ],
+                [
+                  "Apply the Fundamental Theorem of Calculus.",
+                  "[(1/3)(1^3) - (1^2)] - [(1/3)(-1^3) - (-1^2)]"
+                ],
+                [
+                  "Calculate the definite integral.",
+                  "-4/3"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the definite integral.",
+                "∫ (x^2 + 2x) dx",
+                "from 1 to 4"
+              ],
+              "answer": "63",
+              "hint": "Find the antiderivative and then use the Fundamental Theorem of Calculus.",
+              "work": [
+                [
+                  "Find the antiderivative.",
+                  "(1/3)x^3 + x^2 + C"
+                ],
+                [
+                  "Apply the Fundamental Theorem of Calculus.",
+                  "[(1/3)(4^3) + (4^2)] - [(1/3)(1^3) + (1^2)]"
+                ],
+                [
+                  "Calculate the definite integral.",
+                  "63"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the definite integral.",
+                "∫ sin(x) dx",
+                "from 0 to π"
+              ],
+              "answer": "2",
+              "hint": "Find the antiderivative and then use the Fundamental Theorem of Calculus.",
+              "work": [
+                [
+                  "Find the antiderivative.",
+                  "-cos(x) + C"
+                ],
+                [
+                  "Apply the Fundamental Theorem of Calculus.",
+                  "-cos(π) - (-cos(0))"
+                ],
+                [
+                  "Calculate the definite integral.",
+                  "2"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5.Area Between Curves",
+          "problems": [
+            {
+              "question": [
+                "Find the area between the two curves.",
+                "y = x^2",
+                "y = 2x"
+              ],
+              "answer": "4/3",
+              "hint": "Set the two functions equal to each other to find the intersection points, then integrate the difference between the functions.",
+              "work": [
+                [
+                  "Find the intersection points.",
+                  "x^2 = 2x",
+                  "x = 0, 2"
+                ],
+                [
+                  "Integrate the difference.",
+                  "∫ (2x - x^2) dx",
+                  "from 0 to 2"
+                ],
+                [
+                  "Calculate the area.",
+                  "4/3"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the area between the two curves.",
+                "y = x^3",
+                "y = x^2"
+              ],
+              "answer": "1/4",
+              "hint": "Set the two functions equal to each other to find the intersection points, then integrate the difference between the functions.",
+              "work": [
+                [
+                  "Find the intersection points.",
+                  "x^3 = x^2",
+                  "x = 0, 1"
+                ],
+                [
+                  "Integrate the difference.",
+                  "∫ (x^2 - x^3) dx",
+                  "from 0 to 1"
+                ],
+                [
+                  "Calculate the area.",
+                  "1/4"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the area between the two curves.",
+                "y = e^x",
+                "y = 1 + x"
+              ],
+              "answer": "e - 2",
+              "hint": "Set the two functions equal to each other to find the intersection points, then integrate the difference between the functions.",
+              "work": [
+                [
+                  "Find the intersection points.",
+                  "e^x = 1 + x",
+                  "x = 0, 1"
+                ],
+                [
+                  "Integrate the difference.",
+                  "∫ (e^x - (1 + x)) dx",
+                  "from 0 to 1"
+                ],
+                [
+                  "Calculate the area.",
+                  "e - 2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the area between the two curves.",
+                "y = cos(x)",
+                "y = sin(x)"
+              ],
+              "answer": "1",
+              "hint": "Set the two functions equal to each other to find the intersection points, then integrate the difference between the functions.",
+              "work": [
+                [
+                  "Find the intersection points.",
+                  "cos(x) = sin(x)",
+                  "x = π/4, (5π)/4"
+                ],
+                [
+                  "Integrate the difference.",
+                  "∫ (cos(x) - sin(x)) dx",
+                  "from π/4 to (5π)/4"
+                ],
+                [
+                  "Calculate the area.",
+                  "1"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the area between the two curves.",
+                "y = 3x^2",
+                "y = x^3 - x"
+              ],
+              "answer": "1/2",
+              "hint": "Set the two functions equal to each other to find the intersection points, then integrate the difference between the functions.",
+              "work": [
+                [
+                  "Find the intersection points.",
+                  "3x^2 = x^3 - x",
+                  "x = -1, 0, 1"
+                ],
+                [
+                  "Integrate the difference.",
+                  "∫ (x^3 - x - 3x^2) dx",
+                  "from -1 to 1"
+                ],
+                [
+                  "Calculate the area.",
+                  "1/2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the area between the two curves.",
+                "y = 2x^2 + 1",
+                "y = x^2 + 2x"
+              ],
+              "answer": "5/6",
+              "hint": "Set the two functions equal to each other to find the intersection points, then integrate the difference between the functions.",
+              "work": [
+                [
+                  "Find the intersection points.",
+                  "2x^2 + 1 = x^2 + 2x",
+                  "x = -1, 1"
+                ],
+                [
+                  "Integrate the difference.",
+                  "∫ (x^2 + 2x - (2x^2 + 1)) dx",
+                  "from -1 to 1"
+                ],
+                [
+                  "Calculate the area.",
+                  "5/6"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the area between the two curves.",
+                "y = x^2 + 4x + 4",
+                "y = 4x + 4"
+              ],
+              "answer": "4/3",
+              "hint": "Set the two functions equal to each other to find the intersection points, then integrate the difference between the functions.",
+              "work": [
+                [
+                  "Find the intersection points.",
+                  "x^2 + 4x + 4 = 4x + 4",
+                  "x = 0"
+                ],
+                [
+                  "Integrate the difference.",
+                  "∫ ((x^2 + 4x + 4) - (4x + 4)) dx",
+                  "from 0 to 2"
+                ],
+                [
+                  "Calculate the area.",
+                  "4/3"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the area between the two curves.",
+                "y = sqrt(x)",
+                "y = x^2"
+              ],
+              "answer": "2/3",
+              "hint": "Set the two functions equal to each other to find the intersection points, then integrate the difference between the functions.",
+              "work": [
+                [
+                  "Find the intersection points.",
+                  "sqrt(x) = x^2",
+                  "x = 0, 1"
+                ],
+                [
+                  "Integrate the difference.",
+                  "∫ (sqrt(x) - x^2) dx",
+                  "from 0 to 1"
+                ],
+                [
+                  "Calculate the area.",
+                  "2/3"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Calculus 2": {
+      "topics": [
+        {
+          "name": "7.1 Logarithm Integrals",
+          "problems": [
+            {
+              "question": [
+                "Evaluate the definite integral using integration by parts:",
+                "∫ (x * ln(x)) dx",
+                "from 0 to 1"
+              ],
+              "answer": "-1/4",
+              "hint": "Use integration by parts with u = ln(x) and dv = x dx.",
+              "work": [
+                [
+                  "Integration by parts.",
+                  "uv",
+                  "from 0 to 1"
+                ],
+                [
+                  "-",
+                  "∫ v du",
+                  "from 0 to 1"
+                ],
+                [
+                  "Choose u and dv.",
+                  "u = ln(x), dv = x dx"
+                ],
+                [
+                  "Calculate du and v.",
+                  "du = (1/x) dx, v = (1/2)x^2"
+                ],
+                [
+                  "Substitute and integrate.",
+                  "-(1/2)x^2 ln(x)|_0^1 + ∫(1/2)x dx",
+                  "from 0 to 1"
+                ],
+                [
+                  "Evaluate the integral.",
+                  "-(1/2) * 1^2 * ln(1) + [(1/4)x^2]_0^1"
+                ],
+                [
+                  "Simplify and calculate the result.",
+                  "-1/4"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the definite integral using trigonometric substitution:",
+                "∫ (√(9 - x^2)) dx",
+                "from -3 to 3"
+              ],
+              "answer": "9π/2",
+              "hint": "Use the trigonometric substitution x = 3sin(θ).",
+              "work": [
+                [
+                  "Trigonometric substitution.",
+                  "x = 3sin(θ)"
+                ],
+                [
+                  "Calculate dx.",
+                  "dx = 3cos(θ) dθ"
+                ],
+                [
+                  "Substitute and simplify.",
+                  "∫ (3cos(θ) * 3cos(θ)) dθ",
+                  "from -π/2 to π/2"
+                ],
+                [
+                  "Integrate.",
+                  "∫ (9cos^2(θ)) dθ",
+                  "from -π/2 to π/2"
+                ],
+                [
+                  "Use double angle formula.",
+                  "∫ (9/2)(1 + cos(2θ)) dθ",
+                  "from -π/2 to π/2"
+                ],
+                [
+                  "Integrate and substitute.",
+                  "(9/2)(θ + (1/2)sin(2θ))",
+                  "from -π/2 to π/2"
+                ],
+                [
+                  "Evaluate the result.",
+                  "(9/2)(π/2)"
+                ],
+                [
+                  "Simplify.",
+                  "9π/2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the definite integral using partial fractions:",
+                "∫ (x^2 - 3x + 4) / (x^3 - x^2) dx",
+                "from 1 to 2"
+              ],
+              "answer": "ln(2) + 9/4",
+              "hint": "Perform partial fraction decomposition to rewrite the integral.",
+              "work": [
+                [
+                  "Partial fraction decomposition.",
+                  "(x^2 - 3x + 4) / (x^2(x - 1)) = A/x + B/x^2 + C/(x - 1)"
+                ],
+                [
+                  "Solve for A, B, and C.",
+                  "A = 1, B = -2, C = 2"
+                ],
+                [
+                  "Substitute.",
+                  "∫ (1/x - 2/x^2 + 2/(x - 1)) dx",
+                  "from 1 to 2"
+                ],
+                [
+                  "Integrate.",
+                  "ln|x| + 2x^(-1) + 2ln|x - 1|",
+                  "from 1 to 2"
+                ],
+                [
+                  "Evaluate the definite integral.",
+                  "ln(2) - ln(1) - 2(1/2) + 4(1/1) + 2ln(1) - 2ln(0)"
+                ],
+                [
+                  "Simplify the result.",
+                  "ln(2) + 9/4"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the definite integral:",
+                "∫ (e^(2x) * sin(x)) dx",
+                "from 0 to π/4"
+              ],
+              "answer": "(e^(2π) - 1)/(2e^π + 2)",
+              "hint": "Use integration by parts twice.",
+              "work": [
+                [
+                  "Integration by parts (first round).",
+                  "uv",
+                  "from 0 to π/4"
+                ],
+                [
+                  "-",
+                  "∫ v du",
+                  "from 0 to π/4"
+                ],
+                [
+                  "Choose u and dv for the first round.",
+                  "u = sin(x), dv = e^(2x) dx"
+                ],
+                [
+                  "Calculate du and v for the first round.",
+                  "du = cos(x) dx, v = (1/2)e^(2x)"
+                ],
+                [
+                  "Integration by parts (second round).",
+                  "(1/2)e^(2x) sin(x)",
+                  "from 0 to π/4"
+                ],
+                [
+                  "-",
+                  "(1/2)∫ v du",
+                  "from 0 to π/4"
+                ],
+                [
+                  "Choose u and dv for the second round.",
+                  "u = cos(x), dv = (1/2)e^(2x) dx"
+                ],
+                [
+                  "Calculate du and v for the second round.",
+                  "du = -sin(x) dx, v = (1/4)e^(2x)"
+                ],
+                [
+                  "Substitute and integrate.",
+                  "(1/4)e^(2x) cos(x) - (1/4)∫ e^(2x) sin(x) dx",
+                  "from 0 to π/4"
+                ],
+                [
+                  "Evaluate the definite integral.",
+                  "(1/4)e^(2π/4) cos(π/4) - (1/4)e^(2 * 0) cos(0)"
+                ],
+                [
+                  "Simplify the result.",
+                  "(e^(2π) - 1)/(2e^π + 2)"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "7.Hyperbolic Functions",
+          "problems": [
+            {
+              "question": [
+                "Evaluate the indefinite integral:",
+                "∫ sinh(x) dx"
+              ],
+              "answer": "cosh(x) + C",
+              "hint": "Recall the derivative of the hyperbolic cosine function.",
+              "work": [
+                [
+                  "Integrate.",
+                  "cosh(x) + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral:",
+                "∫ cosh(x) dx"
+              ],
+              "answer": "sinh(x) + C",
+              "hint": "Recall the derivative of the hyperbolic sine function.",
+              "work": [
+                [
+                  "Integrate.",
+                  "sinh(x) + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral:",
+                "∫ tanh(x) dx"
+              ],
+              "answer": "ln(cosh(x)) + C",
+              "hint": "Recall the derivative of the hyperbolic tangent function.",
+              "work": [
+                [
+                  "Integrate.",
+                  "ln(cosh(x)) + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral:",
+                "∫ sech^2(x) dx"
+              ],
+              "answer": "tanh(x) + C",
+              "hint": "Recall the derivative of the hyperbolic tangent function.",
+              "work": [
+                [
+                  "Integrate.",
+                  "tanh(x) + C"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "8.Integration By Parts",
+          "problems": [
+            {
+              "question": [
+                "Evaluate the indefinite integral:",
+                "∫ x*e^x dx"
+              ],
+              "answer": "(x - 1)e^x + C",
+              "hint": "Use integration by parts.",
+              "work": [
+                [
+                  "Choose u and dv.",
+                  "u = x, dv = e^x dx"
+                ],
+                [
+                  "Find du and v.",
+                  "du = dx, v = e^x"
+                ],
+                [
+                  "Apply integration by parts.",
+                  "∫ x*e^x dx = x*e^x - ∫ e^x dx"
+                ],
+                [
+                  "Integrate.",
+                  "(x - 1)e^x + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral:",
+                "∫ ln(x) dx"
+              ],
+              "answer": "x(ln(x) - 1) + C",
+              "hint": "Use integration by parts.",
+              "work": [
+                [
+                  "Choose u and dv.",
+                  "u = ln(x), dv = dx"
+                ],
+                [
+                  "Find du and v.",
+                  "du = (1/x) dx, v = x"
+                ],
+                [
+                  "Apply integration by parts.",
+                  "∫ ln(x) dx = x*ln(x) - ∫ x*(1/x) dx"
+                ],
+                [
+                  "Integrate.",
+                  "x(ln(x) - 1) + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral:",
+                "∫ x*sin(x) dx"
+              ],
+              "answer": "sin(x) - x*cos(x) + C",
+              "hint": "Use integration by parts.",
+              "work": [
+                [
+                  "Choose u and dv.",
+                  "u = x, dv = sin(x) dx"
+                ],
+                [
+                  "Find du and v.",
+                  "du = dx, v = -cos(x)"
+                ],
+                [
+                  "Apply integration by parts.",
+                  "∫ x*sin(x) dx = -x*cos(x) + ∫ cos(x) dx"
+                ],
+                [
+                  "Integrate.",
+                  "sin(x) - x*cos(x) + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral:",
+                "∫ x^2*e^x dx"
+              ],
+              "answer": "(x^2 - 2x + 2)e^x + C",
+              "hint": "Use integration by parts twice.",
+              "work": [
+                [
+                  "Choose u and dv (first time).",
+                  "u = x^2, dv = e^x dx"
+                ],
+                [
+                  "Find du and v (first time).",
+                  "du = 2x dx, v = e^x"
+                ],
+                [
+                  "Apply integration by parts (first time).",
+                  "∫ x^2*e^x dx = x^2*e^x - ∫ 2x*e^x dx"
+                ],
+                [
+                  "Choose u and dv (second time).",
+                  "u = 2x, dv = e^x dx"
+                ],
+                [
+                  "Find du and v (second time).",
+                  "du = 2 dx, v = e^x"
+                ],
+                [
+                  "Apply integration by parts (second time).",
+                  "∫ 2x*e^x dx = 2x*e^x - ∫ 2*e^x dx"
+                ],
+                [
+                  "Integrate.",
+                  "(x^2 - 2x + 2)e^x + C"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "8.Trigonometric Integrals",
+          "problems": [
+            {
+              "question": [
+                "Evaluate the indefinite integral:",
+                "∫ sin^3(x) dx"
+              ],
+              "answer": "(-1/3)cos^3(x) + cos(x) + C",
+              "hint": "Use trigonometric identities and substitution.",
+              "work": [
+                [
+                  "Apply the identity.",
+                  "sin^3(x) = (1 - cos^2(x))sin(x)"
+                ],
+                [
+                  "Choose u and du.",
+                  "u = cos(x), du = -sin(x) dx"
+                ],
+                [
+                  "Apply substitution.",
+                  "-∫ (1 - u^2) du"
+                ],
+                [
+                  "Integrate.",
+                  "-(u - u^3/3) + C"
+                ],
+                [
+                  "Substitute back.",
+                  "(-1/3)cos^3(x) + cos(x) + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral:",
+                "∫ cos^2(x)sin(x) dx"
+              ],
+              "answer": "(1/3)cos^3(x) + C",
+              "hint": "Use substitution.",
+              "work": [
+                [
+                  "Choose u and du.",
+                  "u = cos(x), du = -sin(x) dx"
+                ],
+                [
+                  "Apply substitution.",
+                  "∫ u^2 du"
+                ],
+                [
+                  "Integrate.",
+                  "(1/3)u^3 + C"
+                ],
+                [
+                  "Substitute back.",
+                  "(1/3)cos^3(x) + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral:",
+                "∫ sin^2(x)cos(x) dx"
+              ],
+              "answer": "(1/3)sin^3(x) + C",
+              "hint": "Use substitution.",
+              "work": [
+                [
+                  "Choose u and du.",
+                  "u = sin(x), du = cos(x) dx"
+                ],
+                [
+                  "Apply substitution.",
+                  "∫ u^2 du"
+                ],
+                [
+                  "Integrate.",
+                  "(1/3)u^3 + C"
+                ],
+                [
+                  "Substitute back.",
+                  "(1/3)sin^3(x) + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral:",
+                "∫ sec^3(x) dx"
+              ],
+              "answer": "0.5(sec(x)tan(x)) + 0.5ln(|sec(x) + tan(x)|) + C",
+              "hint": "Use integration by parts and a trigonometric substitution.",
+              "work": [
+                [
+                  "Choose u and dv.",
+                  "u = sec(x), dv = sec^2(x) dx"
+                ],
+                [
+                  "Find du and v.",
+                  "du = sec(x)tan(x) dx, v = tan(x)"
+                ],
+                [
+                  "Apply integration by parts.",
+                  "∫ sec^3(x) dx = sec(x)tan(x) - ∫ sec(x)tan^2(x) dx"
+                ],
+                [
+                  "Apply the identity.",
+                  "tan^2(x) = sec^2(x) - 1"
+                ],
+                [
+                  "Integrate.",
+                  "0.5(sec(x)tan(x)) + 0.5ln(|sec(x) + tan(x)|) + C"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "8.Trigonometric Substitution",
+          "problems": [
+            {
+              "question": [
+                "Evaluate the indefinite integral:",
+                "∫ (1/√(1 - x^2)) dx"
+              ],
+              "answer": "sin^(-1)(x) + C",
+              "hint": "Use trigonometric substitution.",
+              "work": [
+                [
+                  "Choose the substitution.",
+                  "x = sin(θ)"
+                ],
+                [
+                  "Apply the substitution.",
+                  "dx = cos(θ) dθ"
+                ],
+                [
+                  "Substitute.",
+                  "∫ cos(θ) dθ"
+                ],
+                [
+                  "Integrate.",
+                  "sin(θ) + C"
+                ],
+                [
+                  "Substitute back.",
+                  "sin^(-1)(x) + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral:",
+                "∫ (1/(x^2√(x^2 - 1))) dx"
+              ],
+              "answer": "-(1/x) + C",
+              "hint": "Use trigonometric substitution.",
+              "work": [
+                [
+                  "Choose the substitution.",
+                  "x = cosh(θ)"
+                ],
+                [
+                  "Apply the substitution.",
+                  "dx = sinh(θ) dθ"
+                ],
+                [
+                  "Substitute.",
+                  "∫ (1/(cosh^2(θ)sinh(θ))) dθ"
+                ],
+                [
+                  "Simplify.",
+                  "∫ sech(θ) dθ"
+                ],
+                [
+                  "Integrate.",
+                  "-tanh(θ) + C"
+                ],
+                [
+                  "Substitute back.",
+                  "-(1/x) + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral:",
+                "∫ (1/(x^2√(x^2 + 1))) dx"
+              ],
+              "answer": "(-1/√(x^2 + 1)) + C",
+              "hint": "Use trigonometric substitution.",
+              "work": [
+                [
+                  "Choose the substitution.",
+                  "x = sinh(θ)"
+                ],
+                [
+                  "Apply the substitution.",
+                  "dx = cosh(θ) dθ"
+                ],
+                [
+                  "Substitute.",
+                  "∫ (1/(sinh^2(θ)cosh(θ))) dθ"
+                ],
+                [
+                  "Simplify.",
+                  "∫ csch(θ) dθ"
+                ],
+                [
+                  "Integrate.",
+                  "-coth(θ) + C"
+                ],
+                [
+                  "Substitute back.",
+                  "(-1/√(x^2 + 1)) + C"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the indefinite integral:",
+                "∫ (x^3/√(x^2 + 4)) dx"
+              ],
+              "hint": "Use trigonometric substitution.",
+              "answer": "(2/3)(√(x^2 + 4)) - (8/3)tan^(-1)(x/2) + C",
+              "work": [
+                [
+                  "Choose the substitution.",
+                  "x = 2tan(θ)"
+                ],
+                [
+                  "Apply the substitution.",
+                  "dx = 2sec^2(θ) dθ"
+                ],
+                [
+                  "Substitute.",
+                  "∫ (8tan^3(θ)sec(θ)sec^2(θ)) dθ"
+                ],
+                [
+                  "Simplify.",
+                  "∫ (8tan^3(θ)sec^3(θ)) dθ"
+                ],
+                [
+                  "Integrate.",
+                  "(4/3)sec^3(θ) - 8θ + C"
+                ],
+                [
+                  "Substitute back.",
+                  "(2/3)(√(x^2 + 4)) - (8/3)tan^(-1)(x/2) + C"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "8.Improper Integrals",
+          "problems": [
+            {
+              "question": [
+                "Evaluate the improper integral:",
+                "∫ (1/x^2) dx",
+                "from 1 to ∞"
+              ],
+              "answer": "1",
+              "hint": "Use the limit definition of an improper integral.",
+              "work": [
+                [
+                  "Find the antiderivative.",
+                  "-1/x + C"
+                ],
+                [
+                  "Apply the limit definition.",
+                  "lim (b → ∞) [(-1/b + 1) - (-1/1 + 1)]"
+                ],
+                [
+                  "Evaluate the limit.",
+                  "1"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the improper integral:",
+                "∫ (e^(-x)) dx",
+                "from 0 to ∞"
+              ],
+              "answer": "1",
+              "hint": "Use the limit definition of an improper integral.",
+              "work": [
+                [
+                  "Find the antiderivative.",
+                  "-e^(-x) + C"
+                ],
+                [
+                  "Apply the limit definition.",
+                  "lim (b → ∞) [(-e^(-b) + 1) - (-e^(-0) + 1)]"
+                ],
+                [
+                  "Evaluate the limit.",
+                  "1"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the improper integral:",
+                "∫ (1/√x) dx",
+                "from 0 to 1"
+              ],
+              "answer": "2",
+              "hint": "Use the limit definition of an improper integral.",
+              "work": [
+                [
+                  "Find the antiderivative.",
+                  "2√x + C"
+                ],
+                [
+                  "Apply the limit definition.",
+                  "lim (a → 0+) [(2√1 - 2√a) - 0]"
+                ],
+                [
+                  "Evaluate the limit.",
+                  "2"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Evaluate the improper integral:",
+                "∫ (1/x) dx",
+                "from 1 to e"
+              ],
+              "answer": "1",
+              "hint": "Use the limit definition of an improper integral.",
+              "work": [
+                [
+                  "Find the antiderivative.",
+                  "ln|x| + C"
+                ],
+                [
+                  "Apply the limit definition.",
+                  "[ln(e) - ln(1)]"
+                ],
+                [
+                  "Evaluate the limit.",
+                  "1"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "10.Infinite Series",
+          "problems": [
+            {
+              "question": [
+                "Determine if the series converges or diverges:",
+                "Σ (1/n)"
+              ],
+              "answer": "Diverges (Harmonic Series)",
+              "hint": "Use the Integral Test or compare with the Harmonic Series.",
+              "work": [
+                [
+                  "Compare with the Harmonic Series.",
+                  "1/n"
+                ],
+                [
+                  "Determine convergence or divergence.",
+                  "Diverges (Harmonic Series)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Determine if the series converges or diverges:",
+                "Σ (1/n^2)"
+              ],
+              "answer": "Converges (p-series with p = 2)",
+              "hint": "Use the p-series test.",
+              "work": [
+                [
+                  "Identify the p-series.",
+                  "1/n^2"
+                ],
+                [
+                  "Determine convergence or divergence.",
+                  "Converges (p-series with p = 2)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Determine if the series converges or diverges:",
+                "Σ (1/2^n)"
+              ],
+              "answer": "Converges (Geometric Series with |r| < 1)",
+              "hint": "Use the Geometric Series Test.",
+              "work": [
+                [
+                  "Identify the Geometric Series.",
+                  "1/2^n"
+                ],
+                [
+                  "Determine convergence or divergence.",
+                  "Converges (Geometric Series with |r| < 1)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Determine if the series converges or diverges:",
+                "Σ (1/n!)"
+              ],
+              "answer": "Converges",
+              "hint": "Use the Ratio Test.",
+              "work": [
+                [
+                  "Apply the Ratio Test.",
+                  "lim (n → ∞) [(1/(n + 1)!) / (1/n!)]"
+                ],
+                [
+                  "Evaluate the limit.",
+                  "0"
+                ],
+                [
+                  "Determine convergence or divergence.",
+                  "Converges"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "10.Power Series",
+          "problems": [
+            {
+              "question": [
+                "Find the interval of convergence for the power series:",
+                "Σ (x^n) / n!"
+              ],
+              "answer": "Interval of convergence: (-∞, ∞)",
+              "hint": "Use the Ratio Test.",
+              "work": [
+                [
+                  "Apply the Ratio Test.",
+                  "lim (n → ∞) [((x^(n+1)) / (n+1)!) / ((x^n) / n!)]"
+                ],
+                [
+                  "Simplify the expression.",
+                  "lim (n → ∞) [x / (n + 1)]"
+                ],
+                [
+                  "Evaluate the limit.",
+                  "0"
+                ],
+                [
+                  "Determine the interval of convergence.",
+                  "Interval of convergence: (-∞, ∞)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the interval of convergence for the power series:",
+                "Σ (n * x^n)"
+              ],
+              "answer": "Interval of convergence: (-1, 1)",
+              "hint": "Use the Ratio Test.",
+              "work": [
+                [
+                  "Apply the Ratio Test.",
+                  "lim (n → ∞) [(n+1 * x^(n+1)) / (n * x^n)]"
+                ],
+                [
+                  "Simplify the expression.",
+                  "lim (n → ∞) [(n+1) / n]"
+                ],
+                [
+                  "Evaluate the limit.",
+                  "1"
+                ],
+                [
+                  "Determine the interval of convergence.",
+                  "Interval of convergence: (-1, 1)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the interval of convergence for the power series:",
+                "Σ (x^n) / (2^n)"
+              ],
+              "answer": "Interval of convergence: [-2, 2)",
+              "hint": "Use the Ratio Test.",
+              "work": [
+                [
+                  "Apply the Ratio Test.",
+                  "lim (n → ∞) [((x^(n+1)) / (2^(n+1))) / ((x^n) / (2^n))]"
+                ],
+                [
+                  "Simplify the expression.",
+                  "lim (n → ∞) [x / 2]"
+                ],
+                [
+                  "Determine the interval of convergence.",
+                  "Interval of convergence: [-2, 2)"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the interval of convergence for the power series:",
+                "Σ (n * x^n) / (2^n)"
+              ],
+              "answer": "Interval of convergence: (-2, 2)",
+              "hint": "Use the Ratio Test.",
+              "work": [
+                [
+                  "Apply the Ratio Test.",
+                  "lim (n → ∞) [((n+1 * x^(n+1)) / (2^(n+1))) / ((n * x^n) / (2^n))]"
+                ],
+                [
+                  "Simplify the expression.",
+                  "lim (n → ∞) [(n+1) / (2n)]"
+                ],
+                [
+                  "Evaluate the limit.",
+                  "1/2"
+                ],
+                [
+                  "Determine the interval of convergence.",
+                  "Interval of convergence: (-2, 2)"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "10.Taylor Series",
+          "problems": [
+            {
+              "question": [
+                "Find the first four non-zero terms of the Taylor series for the function:",
+                "f(x) = e^x",
+                "centered at x = 0"
+              ],
+              "answer": "1 + x + (1/2)x^2 + (1/6)x^3",
+              "hint": "Find the first four derivatives of the function.",
+              "work": [
+                [
+                  "Find the first derivative.",
+                  "f'(x) = e^x"
+                ],
+                [
+                  "Find the second derivative.",
+                  "f''(x) = e^x"
+                ],
+                [
+                  "Find the third derivative.",
+                  "f'''(x) = e^x"
+                ],
+                [
+                  "Evaluate the derivatives at x = 0.",
+                  "f(0) = 1, f'(0) = 1, f''(0) = 1, f'''(0) = 1"
+                ],
+                [
+                  "Write the first four non-zero terms.",
+                  "1 + x + (1/2)x^2 + (1/6)x^3"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the first four non-zero terms of the Taylor series for the function:",
+                "f(x) = sin(x)",
+                "centered at x = 0"
+              ],
+              "answer": "x - (1/6)x^3 + (1/120)x^5",
+              "hint": "Find the first five derivatives of the function.",
+              "work": [
+                [
+                  "Find the first derivative.",
+                  "f'(x) = cos(x)"
+                ],
+                [
+                  "Find the second derivative.",
+                  "f''(x) = -sin(x)"
+                ],
+                [
+                  "Find the third derivative.",
+                  "f'''(x) = -cos(x)"
+                ],
+                [
+                  "Find the fourth derivative.",
+                  "f^{(4)}(x) = sin(x)"
+                ],
+                [
+                  "Evaluate the derivatives at x = 0.",
+                  "f(0) = 0, f'(0) = 1, f''(0) = 0, f'''(0) = -1"
+                ],
+                [
+                  "Write the first four non-zero terms.",
+                  "x - (1/6)x^3 + (1/120)x^5"
+                ]
+              ]
+            },
+            {
+              "question": [
+                "Find the first four non-zero terms of the Taylor series for the function:",
+                "f(x) = cos(x)",
+                "centered at x = 0"
+              ],
+              "answer": "1 - (1/2)x^2 + (1/24)x^4",
+              "hint": "Find the first five derivatives of the function.",
+              "work": [
+                [
+                  "Find the first derivative.",
+                  "f'(x) = -sin(x)"
+                ],
+                [
+                  "Find the second derivative.",
+                  "f''(x) = -cos(x)"
+                ],
+                [
+                  "Find the third derivative.",
+                  "f'''(x) = sin(x)"
+                ],
+                [
+                  "Find the fourth derivative.",
+                  "f^{(4)}(x) = cos(x)"
+                ],
+                [
+                  "Evaluate the derivatives at x = 0.",
+                  "f(0) = 1, f'(0) = 0, f''(0) = -1, f'''(0) = 0"
+                ],
+                [
+                  "Write the first four non-zero terms.",
+                  "1 - (1/2)x^2 + (1/24)x^4"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  
+  }
